@@ -13,6 +13,12 @@
   --shadow:     rgba(0,0,0,0.12);
   --nav-h:      100px;
 }
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+
 html { font-size: 16px; scroll-behavior: smooth; }
 body {
   font-family: 'Source Sans 3', sans-serif;
@@ -62,6 +68,7 @@ body {
   color: var(--ink);
   letter-spacing: -0.3px;
 }
+
 .nav-brand-icon { width: 60%;}
 .nav-links {
   list-style: none;
