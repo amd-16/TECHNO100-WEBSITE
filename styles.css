@@ -113,8 +113,24 @@ body {
 .nav-hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
 .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-.page { display: none; padding-top: var(--nav-h); }
-.page.active { display: block; }
+.page {
+  display: none;
+  padding-top: var(--nav-h);
+  opacity: 0;
+  transform: translateY(12px);
+}
+.page.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.page.is-entering {
+  display: block;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: none;
+}
 .container {
   position: relative;
   z-index: 1;

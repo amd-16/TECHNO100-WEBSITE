@@ -8,6 +8,7 @@ let wordsSort     = { col: 'word', dir: 'asc' }
 let wordsPage     = 1
 const PAGE_SIZE   = 50
 let activeAlpha   = null
+let sortListenersAttached = false
 
 Promise.all([
   fetch('kankanaey_dictionary.json').then(r => r.json()).catch(() => []),
@@ -24,49 +25,26 @@ function wordsDict(){ return wordsLang === 'kankanaey' ? kankanaeyData : ibaloid
 
 /* ── Page switching with smooth transition ── */
 function showPage(pageId) {
-  const pages = document.querySelectorAll('.page')
-  const links = document.querySelectorAll('.nav-link')
-
   document.getElementById('navLinks').classList.remove('open')
   document.getElementById('hamburger').classList.remove('open')
 
-  links.forEach(l => {
+  document.querySelectorAll('.nav-link').forEach(l => {
     l.classList.toggle('active', l.dataset.page === pageId)
   })
 
-  const current = document.querySelector('.page.active')
-  const target  = document.getElementById('page-' + pageId)
-
-  if (!target || target === current) return
-
-  target.classList.add('is-entering')
-  target.style.display = 'block'
-
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      if (current) {
-        current.style.opacity = '0'
-        current.style.transform = 'translateY(12px)'
-      }
-      target.classList.remove('is-entering')
-      target.classList.add('active')
-      target.style.opacity = '1'
-      target.style.transform = 'translateY(0)'
-
-      setTimeout(() => {
-        if (current && current !== target) {
-          current.classList.remove('active')
-          current.style.opacity = ''
-          current.style.transform = ''
-          current.style.display = ''
-        }
-      }, 380)
-    })
+  document.querySelectorAll('.page').forEach(p => {
+    p.classList.remove('active')
+    p.style.opacity = ''
+    p.style.transform = ''
+    p.style.display = ''
   })
 
-  if (pageId === 'words') renderWordsPage()
+  document.getElementById('page-' + pageId).classList.add('active')
+
+  if(pageId === 'words') renderWordsPage()
 }
 
+/* ── Search ── */
 function search(query){
   const q = query.trim().toLowerCase()
   if(!q) return []
@@ -91,7 +69,9 @@ function buildCrossRefs(english, isKan) {
   const matches = otherData.filter(other => {
     const otherEnglish = getEnglish(other).toLowerCase()
     const otherTerms   = otherEnglish.split(/[;,]/).map(s => s.trim()).filter(Boolean)
-    const hasOverlap   = englishTerms.some(term => otherTerms.some(ot => ot === term || ot.includes(term) || term.includes(ot)))
+    const hasOverlap   = englishTerms.some(term =>
+      otherTerms.some(ot => ot === term || ot.includes(term) || term.includes(ot))
+    )
     if(hasOverlap && !seen.has(other.word)) {
       seen.add(other.word)
       return true
@@ -167,7 +147,9 @@ function showSuggestions(query){
     const english = getEnglish(item)
     const hlWord    = currentMode === 'native'  ? highlight(word, query)    : word
     const hlEnglish = currentMode === 'english' ? highlight(english, query) : english
-    return `<div class="suggestion-item" data-word="${word.replace(/"/g,'&quot;')}" data-english="${english.replace(/"/g,'&quot;')}">
+    return `<div class="suggestion-item"
+      data-word="${word.replace(/"/g,'&quot;')}"
+      data-english="${english.replace(/"/g,'&quot;')}">
       <span class="sug-word">${currentMode === 'native' ? hlWord : hlEnglish}</span>
       <span class="sug-english">${currentMode === 'native' ? english : word}</span>
     </div>`
@@ -184,7 +166,10 @@ function showSuggestions(query){
 }
 
 function doSearch(queryOverride){
-  const query = (queryOverride !== undefined ? queryOverride : document.getElementById('wordInput').value).trim()
+  const query = (queryOverride !== undefined
+    ? queryOverride
+    : document.getElementById('wordInput').value
+  ).trim()
   document.getElementById('suggestions').classList.add('hidden')
   if(!query) return
   renderResults(search(query), query)
@@ -213,10 +198,13 @@ document.querySelectorAll('.mode-tab').forEach(tab => {
     document.getElementById('result').innerHTML = ''
     document.getElementById('wordInput').value = ''
     document.getElementById('suggestions').classList.add('hidden')
-    document.getElementById('wordInput').placeholder = currentMode === 'native' ? 'Type a native word…' : 'Type an English word…'
+    document.getElementById('wordInput').placeholder = currentMode === 'native'
+      ? 'Type a native word…'
+      : 'Type an English word…'
   })
 })
 
+/* ── Word List ── */
 function posClass(pos){
   if(!pos) return 'pos-other'
   const p = pos.toLowerCase()
@@ -302,7 +290,7 @@ function renderWordsTable(){
     </tr>`
   }).join('')
 
-  // attach click handler to each row to open modal
+  // attach click handler to each row
   tbody.querySelectorAll('tr').forEach((row, i) => {
     row.addEventListener('click', () => openWordModal(slice[i]))
   })
@@ -346,17 +334,21 @@ function updateStats(){
 function renderWordsPage(){
   buildAlpha()
   applyWordsFilter()
-  document.querySelectorAll('.words-table th.sortable').forEach(th => {
-    th.addEventListener('click', () => {
-      const col = th.dataset.col
-      if(wordsSort.col === col) wordsSort.dir = wordsSort.dir === 'asc' ? 'desc' : 'asc'
-      else { wordsSort.col = col; wordsSort.dir = 'asc' }
-      document.querySelectorAll('.words-table th.sortable').forEach(h => h.classList.remove('sort-asc','sort-desc'))
-      th.classList.add(wordsSort.dir === 'asc' ? 'sort-asc' : 'sort-desc')
-      wordsPage = 1
-      applyWordsFilter()
+  // guard so sort listeners are only ever attached once
+  if(!sortListenersAttached){
+    document.querySelectorAll('.words-table th.sortable').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.col
+        if(wordsSort.col === col) wordsSort.dir = wordsSort.dir === 'asc' ? 'desc' : 'asc'
+        else { wordsSort.col = col; wordsSort.dir = 'asc' }
+        document.querySelectorAll('.words-table th.sortable').forEach(h => h.classList.remove('sort-asc','sort-desc'))
+        th.classList.add(wordsSort.dir === 'asc' ? 'sort-asc' : 'sort-desc')
+        wordsPage = 1
+        applyWordsFilter()
+      })
     })
-  })
+    sortListenersAttached = true
+  }
 }
 
 document.querySelectorAll('.lang-tab[data-wlang]').forEach(tab => {
@@ -427,15 +419,12 @@ function closeWordModal() {
   document.body.style.overflow = ''
 }
 
-// close on overlay backdrop click
 document.getElementById('wordModal').addEventListener('click', e => {
   if(e.target === document.getElementById('wordModal')) closeWordModal()
 })
 
-// close on ✕ button
 document.getElementById('modalClose').addEventListener('click', closeWordModal)
 
-// close on Escape key
 document.addEventListener('keydown', e => {
   if(e.key === 'Escape') closeWordModal()
 })
