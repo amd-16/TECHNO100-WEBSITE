@@ -1,4 +1,10 @@
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
 :root {
   --ink:        #0d0d0d;
   --paper:      #ffffff;
@@ -13,12 +19,6 @@
   --shadow:     rgba(0,0,0,0.12);
   --nav-h:      100px;
 }
-
-* {
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
-}
-
 html { font-size: 16px; scroll-behavior: smooth; }
 body {
   font-family: 'Source Sans 3', sans-serif;
@@ -47,6 +47,10 @@ body {
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  transition: box-shadow 0.3s ease;
+}
+.navbar.menu-open {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 .nav-inner {
   max-width: 1100px;
@@ -68,8 +72,7 @@ body {
   color: var(--ink);
   letter-spacing: -0.3px;
 }
-
-.nav-brand-icon { width: 60%;}
+.nav-brand-icon { width: 60%; }
 .nav-links {
   list-style: none;
   display: flex;
@@ -115,11 +118,9 @@ body {
   border-radius: 2px;
   transition: all 0.3s;
 }
-/* hamburger → X */
 .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .nav-hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
 .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-
 .page {
   display: none;
   padding-top: var(--nav-h);
@@ -460,6 +461,7 @@ mark { background: rgba(192,57,43,0.15); color: var(--ink); border-radius: 2px; 
   overflow: hidden;
   box-shadow: 0 4px 20px var(--shadow);
   overflow-x: auto;
+  border-bottom: 3px solid var(--gold);
 }
 .words-table {
   width: 100%;
@@ -550,7 +552,6 @@ th.sort-desc .sort-icon::after { font-size: 0.75rem; }
   text-transform: uppercase;
   margin-left: 8px;
 }
-
 /* ── Word Modal ── */
 .modal-overlay {
   position: fixed;
@@ -610,7 +611,6 @@ th.sort-desc .sort-icon::after { font-size: 0.75rem; }
   background: var(--ink);
   color: var(--paper);
 }
-/* strip card chrome inside modal — modal provides its own container */
 .modal-card .result-card {
   margin-bottom: 0;
   box-shadow: none;
@@ -619,11 +619,13 @@ th.sort-desc .sort-icon::after { font-size: 0.75rem; }
   border-radius: 0;
 }
 .modal-card .result-card::before { display: none; }
-
 /* ── Mobile ── */
 @media (max-width: 600px) {
+  .nav-hamburger {
+    display: flex;
+  }
+  
   .nav-links {
-    display: none;
     flex-direction: column;
     position: absolute;
     top: var(--nav-h);
@@ -631,42 +633,27 @@ th.sort-desc .sort-icon::after { font-size: 0.75rem; }
     right: 0;
     background: var(--paper);
     border-bottom: 1px solid var(--border);
-    box-shadow: 0 6px 20px var(--shadow);
-    gap: 0;
-    padding: 0;
+
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+
+    transition: max-height 0.35s ease, opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
   }
-  .nav-links.open { display: flex; }
-  .nav-links li {
-    display: flex;
-    width: 100%;
+
+  .nav-links.open {
+    max-height: calc(100vh - var(--nav-h));
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
   }
+
   .nav-link {
     width: 100%;
-    min-width: 0;
-    height: var(--nav-h);
-    padding: 0 28px;
-    justify-content: flex-start;
+    padding: 16px 28px;
+    height: auto;
     border-bottom: 1px solid var(--border);
-    box-sizing: border-box;
-  }
-  .nav-link:last-child { border-bottom: none; }
-  .nav-link:not(.active) { background: var(--paper); color: var(--muted); }
-  .nav-link:hover        { background: var(--cream);  color: var(--ink); }
-  .nav-link.active       { background: var(--ink);    color: var(--paper); }
-
-  .nav-hamburger { display: flex; }
-  .search-panel  { padding: 20px 16px 16px; }
-  .container     { padding: 32px 16px 60px; }
-  .container--wide { padding: 24px 14px 60px; }
-  #searchBtn     { padding: 13px 16px; }
-  .result-card   { padding: 18px; }
-  .words-controls { flex-direction: column; }
-  .words-lang-tabs { width: 100%; }
-  .words-lang-tabs .lang-tab { flex: 1; }
-  .words-table th, .words-table td { padding: 10px 12px; }
-
-  .modal-card {
-    padding: 28px 20px 20px;
-    max-height: 88vh;
   }
 }
