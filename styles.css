@@ -633,5 +633,4 @@ th.sort-asc  .sort-icon::after, th.sort-desc .sort-icon::after { font-size: 0.75
   .words-lang-tabs { width: 100%; }
   .words-lang-tabs .lang-tab { flex: 1; }
   .words-table th, .words-table td { padding: 10px 12px; }
-  .col-tagalog { display: none; }
 }
