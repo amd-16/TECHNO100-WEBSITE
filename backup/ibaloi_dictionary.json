@@ -1,7 +1,7 @@
 [
   {
     "word": "abal-abal",
-    "english": "beetle; beetle/s",
+    "english": "beetle",
     "part_of_speech": "noun"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "word": "man-adivay",
-    "english": "to play, visit with, socialize; play, visit with",
+    "english": "to play, visit with, socialize",
     "part_of_speech": "verb"
   },
   {
@@ -126,7 +126,7 @@
   },
   {
     "word": "aggi",
-    "english": "brother, sister, sibling; brother; sister",
+    "english": "brother, sister, sibling",
     "part_of_speech": "noun"
   },
   {
@@ -166,12 +166,12 @@
   },
   {
     "word": "ahad",
-    "english": "walk, go home; walk",
+    "english": "walk, go home",
     "part_of_speech": "verb"
   },
   {
     "word": "ahan",
-    "english": "thing given; give",
+    "english": "thing given",
     "part_of_speech": "noun"
   },
   {
@@ -221,7 +221,7 @@
   },
   {
     "word": "ina-akow",
-    "english": "everyday; every day",
+    "english": "everyday",
     "part_of_speech": "adverb"
   },
   {
@@ -236,7 +236,7 @@
   },
   {
     "word": "ala",
-    "english": "get, take; get",
+    "english": "get, take",
     "part_of_speech": "verb"
   },
   {
@@ -351,7 +351,7 @@
   },
   {
     "word": "anap",
-    "english": "look for, search; look for",
+    "english": "look for, search",
     "part_of_speech": "verb"
   },
   {
@@ -546,7 +546,7 @@
   },
   {
     "word": "asanem",
-    "english": "later, some other time; ekay in a little while",
+    "english": "later, some other time",
     "part_of_speech": "adverb"
   },
   {
@@ -601,7 +601,7 @@
   },
   {
     "word": "ka-asi",
-    "english": "pitiful; pity",
+    "english": "pitiful",
     "part_of_speech": "adjective"
   },
   {
@@ -711,7 +711,7 @@
   },
   {
     "word": "avak",
-    "english": "winnings or loss; win",
+    "english": "winnings or loss",
     "part_of_speech": "noun"
   },
   {
@@ -776,7 +776,7 @@
   },
   {
     "word": "awat",
-    "english": "accept, receive; receive",
+    "english": "accept, receive",
     "part_of_speech": "verb"
   },
   {
@@ -911,7 +911,7 @@
   },
   {
     "word": "baha",
-    "english": "cow, cattle; cow",
+    "english": "cow, cattle",
     "part_of_speech": "noun"
   },
   {
@@ -921,7 +921,7 @@
   },
   {
     "word": "bakdang",
-    "english": "body, self; body",
+    "english": "body, self",
     "part_of_speech": "noun"
   },
   {
@@ -1036,7 +1036,7 @@
   },
   {
     "word": "bangko",
-    "english": "bench, bank; bench",
+    "english": "bench, bank",
     "part_of_speech": "noun"
   },
   {
@@ -1156,7 +1156,7 @@
   },
   {
     "word": "belsig",
-    "english": "to chop wood, split; chop (wood)",
+    "english": "to chop wood, split",
     "part_of_speech": "verb"
   },
   {
@@ -1226,7 +1226,7 @@
   },
   {
     "word": "betek",
-    "english": "bunch; run",
+    "english": "bunch",
     "part_of_speech": "noun"
   },
   {
@@ -1281,7 +1281,7 @@
   },
   {
     "word": "bilang",
-    "english": "number, count; numbers",
+    "english": "number, count",
     "part_of_speech": "noun/verb"
   },
   {
@@ -1292,7 +1292,7 @@
   {
     "word": "shuwa",
     "english": "two",
-    "part_of_speech": "adjective"
+    "part_of_speech": "n/a"
   },
   {
     "word": "teddo",
@@ -1541,7 +1541,7 @@
   },
   {
     "word": "ebiyag",
-    "english": "alive; alive, live",
+    "english": "alive",
     "part_of_speech": "adjective"
   },
   {
@@ -1606,7 +1606,7 @@
   },
   {
     "word": "botbotog",
-    "english": "piglet/s; piglets",
+    "english": "piglet/s",
     "part_of_speech": "noun"
   },
   {
@@ -1676,8 +1676,8 @@
   },
   {
     "word": "mambudo",
-    "english": "washing/will wash one’s hands; to wash one’s hands",
-    "part_of_speech": "verb"
+    "english": "washing/will wash one’s hands",
+    "part_of_speech": "n/a"
   },
   {
     "word": "nanbulo",
@@ -1751,12 +1751,12 @@
   },
   {
     "word": "bimunget",
-    "english": "got angry, was angry; got angry",
-    "part_of_speech": "verb"
+    "english": "got angry, was angry",
+    "part_of_speech": "n/a"
   },
   {
     "word": "manbunget",
-    "english": "is angry; is angry, is in a rage",
+    "english": "is angry",
     "part_of_speech": "n/a"
   },
   {
@@ -1826,7 +1826,7 @@
   },
   {
     "word": "buwasto",
-    "english": "day after; day after tomorrow",
+    "english": "day after",
     "part_of_speech": "adverb"
   },
   {
@@ -2056,8 +2056,13 @@
   },
   {
     "word": "camongon",
-    "english": "if, had it been so; amtak had I known…",
+    "english": "if, had it been so",
     "part_of_speech": "conjunction"
+  },
+  {
+    "word": "camongon",
+    "english": "amtak had I known…",
+    "part_of_speech": "n/a"
   },
   {
     "word": "campana",
@@ -2627,7 +2632,7 @@
   {
     "word": "dingka",
     "english": "did, made",
-    "part_of_speech": "verb"
+    "part_of_speech": "n/a"
   },
   {
     "word": "dagghashi",
@@ -2726,7 +2731,7 @@
   },
   {
     "word": "mandemon",
-    "english": "weeding, will weed; weeding; will weed",
+    "english": "weeding, will weed",
     "part_of_speech": "n/a"
   },
   {
@@ -2736,7 +2741,7 @@
   },
   {
     "word": "edamonan",
-    "english": "has/have/had been weeded; has, have, had been weeded",
+    "english": "has/have/had been weeded",
     "part_of_speech": "n/a"
   },
   {
@@ -2766,8 +2771,8 @@
   },
   {
     "word": "maladamsis",
-    "english": "bad, evil, untrustworthy; bad, evil",
-    "part_of_speech": "adjective"
+    "english": "bad, evil, untrustworthy",
+    "part_of_speech": "n/a"
   },
   {
     "word": "daneb",
@@ -2841,8 +2846,8 @@
   },
   {
     "word": "edarao",
-    "english": "late, was late; late, tardy",
-    "part_of_speech": "adverb"
+    "english": "late, was late",
+    "part_of_speech": "n/a"
   },
   {
     "word": "medeshao",
@@ -2866,8 +2871,8 @@
   },
   {
     "word": "nandasin",
-    "english": "has/have/had more; had more than anybody else",
-    "part_of_speech": "verb"
+    "english": "has/have/had more",
+    "part_of_speech": "n/a"
   },
   {
     "word": "dason",
@@ -2886,7 +2891,7 @@
   },
   {
     "word": "dastog",
-    "english": "showy, bragging, boastful; brag",
+    "english": "showy, bragging, boastful",
     "part_of_speech": "adjective"
   },
   {
@@ -2922,7 +2927,7 @@
   {
     "word": "edavi",
     "english": "night",
-    "part_of_speech": "adverb"
+    "part_of_speech": "n/a"
   },
   {
     "word": "mankadavi",
@@ -2941,7 +2946,7 @@
   },
   {
     "word": "dayat",
-    "english": "stance, stand; stand",
+    "english": "stance, stand",
     "part_of_speech": "noun/verb"
   },
   {
@@ -2951,7 +2956,7 @@
   },
   {
     "word": "endayat",
-    "english": "will stand, will leave; will stand",
+    "english": "will stand, will leave",
     "part_of_speech": "n/a"
   },
   {
@@ -3045,13 +3050,18 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "dingka",
+    "english": "did, made",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "dining",
     "english": "glitter",
     "part_of_speech": "noun"
   },
   {
     "word": "mandining",
-    "english": "bright, glittery, shining; shining, glittering",
+    "english": "bright, glittery, shining",
     "part_of_speech": "adjective"
   },
   {
@@ -3061,7 +3071,7 @@
   },
   {
     "word": "mandinis",
-    "english": "cleaning, will clean; cleaning; will clean",
+    "english": "cleaning, will clean",
     "part_of_speech": "n/a"
   },
   {
@@ -3171,7 +3181,7 @@
   },
   {
     "word": "domingko",
-    "english": "Sunday; week",
+    "english": "Sunday",
     "part_of_speech": "noun"
   },
   {
@@ -3241,7 +3251,7 @@
   },
   {
     "word": "manduto",
-    "english": "cooking, will cook; cooking; will cook",
+    "english": "cooking, will cook",
     "part_of_speech": "n/a"
   },
   {
@@ -3285,6 +3295,11 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "ebiyag",
+    "english": "alive, live",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "eboknol",
     "english": "round, rotund, swollen",
     "part_of_speech": "adjective"
@@ -3325,6 +3340,16 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "edarao",
+    "english": "late, tardy",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "edavi",
+    "english": "night",
+    "part_of_speech": "adverb"
+  },
+  {
     "word": "edefit",
     "english": "narrow, tight",
     "part_of_speech": "adjective"
@@ -3341,8 +3366,8 @@
   },
   {
     "word": "nah’detan",
-    "english": "grassy, full of weeds; full of weeds, grassy",
-    "part_of_speech": "verb"
+    "english": "grassy, full of weeds",
+    "part_of_speech": "n/a"
   },
   {
     "word": "edighao",
@@ -3436,7 +3461,7 @@
   },
   {
     "word": "man-ekad",
-    "english": "walking, will walk; walking; will walk",
+    "english": "walking, will walk",
     "part_of_speech": "n/a"
   },
   {
@@ -3516,7 +3541,7 @@
   },
   {
     "word": "embaliw",
-    "english": "to cross, go across, go over to the other side; cross",
+    "english": "to cross, go across, go over to the other side",
     "part_of_speech": "verb"
   },
   {
@@ -3582,7 +3607,7 @@
   {
     "word": "nan-emot",
     "english": "hid",
-    "part_of_speech": "verb"
+    "part_of_speech": "n/a"
   },
   {
     "word": "nay-emot",
@@ -3626,13 +3651,18 @@
   },
   {
     "word": "man-a-atong",
-    "english": "hot, feverish; feverish, hot",
-    "part_of_speech": "adjective"
+    "english": "hot, feverish",
+    "part_of_speech": "n/a"
   },
   {
     "word": "endao",
     "english": "to go, will go",
     "part_of_speech": "verb"
+  },
+  {
+    "word": "dimao",
+    "english": "went",
+    "part_of_speech": "n/a"
   },
   {
     "word": "Endao-wak nem kabasan",
@@ -3653,6 +3683,11 @@
     "word": "endayot",
     "english": "hard, tough",
     "part_of_speech": "adjective"
+  },
+  {
+    "word": "engngavak",
+    "english": "won",
+    "part_of_speech": "verb"
   },
   {
     "word": "enkagah’tel",
@@ -3681,7 +3716,7 @@
   },
   {
     "word": "esel",
-    "english": "speech, utterance v speak, talk, utter, say; talk",
+    "english": "speech, utterance v speak, talk, utter, say",
     "part_of_speech": "noun"
   },
   {
@@ -3691,12 +3726,12 @@
   },
   {
     "word": "man-ah’sel",
-    "english": "speaking, talking; talking",
+    "english": "speaking, talking",
     "part_of_speech": "n/a"
   },
   {
     "word": "eshahel",
-    "english": "many, numerous; many; much",
+    "english": "many, numerous",
     "part_of_speech": "adjective"
   },
   {
@@ -3776,13 +3811,13 @@
   },
   {
     "word": "i-ahan",
-    "english": "to give; will give",
+    "english": "to give",
     "part_of_speech": "verb"
   },
   {
     "word": "in-ahan",
     "english": "gave",
-    "part_of_speech": "verb"
+    "part_of_speech": "n/a"
   },
   {
     "word": "nay-ahan",
@@ -3871,7 +3906,7 @@
   },
   {
     "word": "ibulos",
-    "english": "to set free; free",
+    "english": "to set free",
     "part_of_speech": "verb"
   },
   {
@@ -3961,7 +3996,7 @@
   },
   {
     "word": "ma-ikot",
-    "english": "selfish; will envy",
+    "english": "selfish",
     "part_of_speech": "adjective"
   },
   {
@@ -4195,6 +4230,16 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "ina-akow",
+    "english": "every day",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "in-ahan",
+    "english": "gave",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "indeg",
     "english": "prevented, did not permit",
     "part_of_speech": "verb"
@@ -4236,7 +4281,7 @@
   },
   {
     "word": "man-inom",
-    "english": "drinking; will drink",
+    "english": "drinking",
     "part_of_speech": "n/a"
   },
   {
@@ -4301,7 +4346,7 @@
   },
   {
     "word": "iparas",
-    "english": "to try, to attempt; will try",
+    "english": "to try, to attempt",
     "part_of_speech": "verb"
   },
   {
@@ -4366,12 +4411,12 @@
   },
   {
     "word": "ipiyal",
-    "english": "entrust; to entrust",
+    "english": "entrust",
     "part_of_speech": "verb"
   },
   {
     "word": "isakpal",
-    "english": "put on top of, lay; will lay",
+    "english": "put on top of, lay",
     "part_of_speech": "verb"
   },
   {
@@ -4501,7 +4546,7 @@
   },
   {
     "word": "iteneng",
-    "english": "listen, hear; will hear",
+    "english": "listen, hear",
     "part_of_speech": "verb"
   },
   {
@@ -4531,22 +4576,22 @@
   },
   {
     "word": "i-uli",
-    "english": "to return, will return; return",
+    "english": "to return, will return",
     "part_of_speech": "verb"
   },
   {
     "word": "nay-uli",
-    "english": "returned; went back",
-    "part_of_speech": "verb"
+    "english": "returned",
+    "part_of_speech": "n/a"
   },
   {
     "word": "may-udi",
-    "english": "will return; be going back",
+    "english": "will return",
     "part_of_speech": "n/a"
   },
   {
     "word": "ivong",
-    "english": "throw, discard; throw",
+    "english": "throw, discard",
     "part_of_speech": "verb"
   },
   {
@@ -4561,17 +4606,17 @@
   },
   {
     "word": "nay-ivong",
-    "english": "been thrown; thrown away, spilled; threw",
+    "english": "been thrown",
     "part_of_speech": "n/a"
   },
   {
     "word": "may-ibong",
-    "english": "will throw; will be spilled, will be thrown",
-    "part_of_speech": "verb"
+    "english": "will throw",
+    "part_of_speech": "n/a"
   },
   {
     "word": "iyan",
-    "english": "stay, put; stay",
+    "english": "stay, put",
     "part_of_speech": "verb"
   },
   {
@@ -4586,7 +4631,7 @@
   },
   {
     "word": "man-iyan",
-    "english": "staying, will stay; staying; will stay",
+    "english": "staying, will stay",
     "part_of_speech": "n/a"
   },
   {
@@ -4666,8 +4711,8 @@
   },
   {
     "word": "manjasjas",
-    "english": "breathing; breathing, alive",
-    "part_of_speech": "verb"
+    "english": "breathing",
+    "part_of_speech": "n/a"
   },
   {
     "word": "jegjeg",
@@ -4691,8 +4736,8 @@
   },
   {
     "word": "manjoh’kow",
-    "english": "getting to be sleepy; be sleepy, be drowsy",
-    "part_of_speech": "verb"
+    "english": "getting to be sleepy",
+    "part_of_speech": "n/a"
   },
   {
     "word": "jimoh’kow",
@@ -4756,7 +4801,7 @@
   },
   {
     "word": "ka-it",
-    "english": "relatives, kin; kin; relatives",
+    "english": "relatives, kin",
     "part_of_speech": "noun"
   },
   {
@@ -4806,7 +4851,7 @@
   },
   {
     "word": "kalumot",
-    "english": "fingers; toe/s",
+    "english": "fingers",
     "part_of_speech": "noun"
   },
   {
@@ -4902,7 +4947,7 @@
   {
     "word": "mangkakatel",
     "english": "itchy",
-    "part_of_speech": "adjective"
+    "part_of_speech": "n/a"
   },
   {
     "word": "katih’dang",
@@ -5275,6 +5320,11 @@
     "part_of_speech": "adverb"
   },
   {
+    "word": "ma-ikot",
+    "english": "selfish",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "ma-ingpis",
     "english": "thin, flimsy",
     "part_of_speech": "adjective"
@@ -5283,6 +5333,11 @@
     "word": "ma-is",
     "english": "corn",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "maladamsis",
+    "english": "bad, evil",
+    "part_of_speech": "adjective"
   },
   {
     "word": "malamang",
@@ -5315,6 +5370,11 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "mambudo",
+    "english": "to wash one’s hands",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "mambunong",
     "english": "native priest/priestess",
     "part_of_speech": "noun"
@@ -5335,9 +5395,19 @@
     "part_of_speech": "adjective"
   },
   {
+    "word": "bimunget",
+    "english": "got angry",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "imbunget",
     "english": "got angry at someone, scolded",
     "part_of_speech": "verb"
+  },
+  {
+    "word": "manbunget",
+    "english": "is angry, is in a rage",
+    "part_of_speech": "n/a"
   },
   {
     "word": "mambuniyang",
@@ -5355,13 +5425,23 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "man-a-atong",
+    "english": "feverish, hot",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "man-adiam",
     "english": "go all the time, to frequent a place",
     "part_of_speech": "verb"
   },
   {
+    "word": "man-adivay",
+    "english": "play, visit with",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "man-ah’sek",
-    "english": "planting, will plant; plant; planting",
+    "english": "planting, will plant",
     "part_of_speech": "verb"
   },
   {
@@ -5401,8 +5481,8 @@
   },
   {
     "word": "nandavos",
-    "english": "undressed, naked; nude",
-    "part_of_speech": "adjective"
+    "english": "undressed, naked",
+    "part_of_speech": "n/a"
   },
   {
     "word": "mandekdek",
@@ -5415,8 +5495,13 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "mandining",
+    "english": "shining, glittering",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "manemnem",
-    "english": "wise, sagacious, thoughtful; wise, thoughtful",
+    "english": "wise, sagacious, thoughtful",
     "part_of_speech": "adjective"
   },
   {
@@ -5445,6 +5530,11 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "mangkakatel",
+    "english": "itchy",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "mankuh’ku-shep",
     "english": "flickering",
     "part_of_speech": "verb"
@@ -5467,6 +5557,16 @@
   {
     "word": "man-iyaman",
     "english": "be grateful, be thankful",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "manjoh’kow",
+    "english": "be sleepy, be drowsy",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "manjasjas",
+    "english": "breathing, alive",
     "part_of_speech": "verb"
   },
   {
@@ -5521,7 +5621,7 @@
   },
   {
     "word": "mansebi",
-    "english": "approaching, coming; arriving, coming close; approaching",
+    "english": "approaching, coming",
     "part_of_speech": "verb"
   },
   {
@@ -5531,7 +5631,7 @@
   },
   {
     "word": "manshah’dop",
-    "english": "to wash one’s face, washing one’s face; washing one’s face; will wash one’s face",
+    "english": "to wash one’s face, washing one’s face",
     "part_of_speech": "verb"
   },
   {
@@ -5691,7 +5791,7 @@
   },
   {
     "word": "ma-ukip",
-    "english": "to sleep, will sleep; will sleep",
+    "english": "to sleep, will sleep",
     "part_of_speech": "verb"
   },
   {
@@ -5722,6 +5822,16 @@
   {
     "word": "nay-aknan",
     "english": "was/were given",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "may-ibong",
+    "english": "will be spilled, will be thrown",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "nay-ivong",
+    "english": "thrown away, spilled",
     "part_of_speech": "n/a"
   },
   {
@@ -5791,7 +5901,7 @@
   },
   {
     "word": "mengan",
-    "english": "to eat, will eat; eat; will eat",
+    "english": "to eat, will eat",
     "part_of_speech": "verb"
   },
   {
@@ -5812,6 +5922,11 @@
   {
     "word": "mengenop",
     "english": "to hunt, will hunt",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "mengesawa",
+    "english": "to get married",
     "part_of_speech": "verb"
   },
   {
@@ -5885,6 +6000,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "na-avak",
+    "english": "lost",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "na-enshi",
     "english": "disappeared, gone",
     "part_of_speech": "verb"
@@ -5892,6 +6012,11 @@
   {
     "word": "nah’busan",
     "english": "depleted, run out of, breathed one’s last, died",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "nah’detan",
+    "english": "full of weeds, grassy",
     "part_of_speech": "verb"
   },
   {
@@ -5981,13 +6106,28 @@
   },
   {
     "word": "namtan",
-    "english": "taste; will taste",
+    "english": "taste",
     "part_of_speech": "verb"
   },
   {
     "word": "ninamtan",
     "english": "tasted",
     "part_of_speech": "n/a"
+  },
+  {
+    "word": "nandasin",
+    "english": "had more than anybody else",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "nandavos",
+    "english": "nude",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "nan-emot",
+    "english": "hid",
+    "part_of_speech": "verb"
   },
   {
     "word": "nangngis",
@@ -6095,14 +6235,24 @@
     "part_of_speech": "adjective"
   },
   {
+    "word": "nay-uli",
+    "english": "returned",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "nem",
     "english": "in, on, later",
     "part_of_speech": "preposition"
   },
   {
     "word": "nemnem",
-    "english": "thought, idea, wisdom; think",
+    "english": "thought, idea, wisdom",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "manemnem",
+    "english": "wise, thoughtful",
+    "part_of_speech": "n/a"
   },
   {
     "word": "nemnemmen",
@@ -6131,7 +6281,7 @@
   },
   {
     "word": "ngah’ngah’",
-    "english": "baby, infant; baby",
+    "english": "baby, infant",
     "part_of_speech": "noun"
   },
   {
@@ -6261,7 +6411,7 @@
   },
   {
     "word": "niman",
-    "english": "now, currently; now",
+    "english": "now, currently",
     "part_of_speech": "adverb"
   },
   {
@@ -6891,7 +7041,7 @@
   },
   {
     "word": "Ngantoy impasing to?",
-    "english": "How did he do it?; How did it happen?",
+    "english": "How did he do it?",
     "part_of_speech": "n/a"
   },
   {
@@ -6956,7 +7106,7 @@
   },
   {
     "word": "pilit",
-    "english": "force, persistence, insistence; force",
+    "english": "force, persistence, insistence",
     "part_of_speech": "noun"
   },
   {
@@ -7001,8 +7151,8 @@
   },
   {
     "word": "pinsak",
-    "english": "once; altogether, all at once; n gong",
-    "part_of_speech": "adverb"
+    "english": "once",
+    "part_of_speech": "n/a"
   },
   {
     "word": "pin-shuwa",
@@ -7051,8 +7201,13 @@
   },
   {
     "word": "pingkan",
-    "english": "plate/s; plate",
+    "english": "plate/s",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "pinsak",
+    "english": "altogether, all at once; n gong",
+    "part_of_speech": "adverb"
   },
   {
     "word": "pinshahel",
@@ -7096,7 +7251,7 @@
   },
   {
     "word": "pispis",
-    "english": "choose; pick out",
+    "english": "choose",
     "part_of_speech": "verb"
   },
   {
@@ -7111,7 +7266,7 @@
   },
   {
     "word": "pispisen",
-    "english": "will choose, will select; will pick out",
+    "english": "will choose, will select",
     "part_of_speech": "n/a"
   },
   {
@@ -7153,6 +7308,11 @@
     "word": "piyal",
     "english": "trust; v entrust",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "ipiyal",
+    "english": "to entrust",
+    "part_of_speech": "n/a"
   },
   {
     "word": "inpiyal",
@@ -7401,8 +7561,8 @@
   },
   {
     "word": "simpol",
-    "english": "found, earned; found",
-    "part_of_speech": "verb"
+    "english": "found, earned",
+    "part_of_speech": "n/a"
   },
   {
     "word": "safot",
@@ -7446,7 +7606,7 @@
   },
   {
     "word": "sah’dat",
-    "english": "change, exchange, barter; change",
+    "english": "change, exchange, barter",
     "part_of_speech": "verb"
   },
   {
@@ -7591,7 +7751,7 @@
   },
   {
     "word": "salsheng",
-    "english": "stop, cease; stop",
+    "english": "stop, cease",
     "part_of_speech": "verb"
   },
   {
@@ -7601,7 +7761,7 @@
   },
   {
     "word": "mansalsheng",
-    "english": "will stop; stopping",
+    "english": "will stop",
     "part_of_speech": "n/a"
   },
   {
@@ -7761,8 +7921,13 @@
   },
   {
     "word": "savi",
-    "english": "arrive, come by, join in; approach",
+    "english": "arrive, come by, join in",
     "part_of_speech": "verb"
+  },
+  {
+    "word": "mansebi",
+    "english": "arriving, coming close",
+    "part_of_speech": "n/a"
   },
   {
     "word": "semavi",
@@ -7821,7 +7986,7 @@
   },
   {
     "word": "seddi",
-    "english": "foot/feet; leg/s",
+    "english": "foot/feet",
     "part_of_speech": "noun"
   },
   {
@@ -7926,7 +8091,7 @@
   },
   {
     "word": "shemet",
-    "english": "pick up; pick",
+    "english": "pick up",
     "part_of_speech": "verb"
   },
   {
@@ -7966,7 +8131,7 @@
   },
   {
     "word": "shingshing",
-    "english": "wall; wall/s",
+    "english": "wall",
     "part_of_speech": "noun"
   },
   {
@@ -7981,7 +8146,7 @@
   },
   {
     "word": "panshedmeta",
-    "english": "is picking up; picking",
+    "english": "is picking up",
     "part_of_speech": "n/a"
   },
   {
@@ -7991,7 +8156,7 @@
   },
   {
     "word": "shiyay",
-    "english": "here; tukaljo",
+    "english": "here",
     "part_of_speech": "adverb"
   },
   {
@@ -8035,6 +8200,11 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "shuwa",
+    "english": "two",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "si-em",
     "english": "wariness, be wary",
     "part_of_speech": "noun/verb"
@@ -8056,7 +8226,7 @@
   },
   {
     "word": "sifet",
-    "english": "roach; cockroach",
+    "english": "roach",
     "part_of_speech": "noun"
   },
   {
@@ -8106,17 +8276,17 @@
   },
   {
     "word": "sih’kak",
-    "english": "I, me; Me",
+    "english": "I, me",
     "part_of_speech": "pronoun"
   },
   {
     "word": "sih’kam",
-    "english": "you (sing); You",
+    "english": "you (sing)",
     "part_of_speech": "pronoun"
   },
   {
     "word": "sih’kami",
-    "english": "we, us; Us",
+    "english": "we, us",
     "part_of_speech": "pronoun"
   },
   {
@@ -8126,17 +8296,17 @@
   },
   {
     "word": "sih’kara",
-    "english": "they; Them",
+    "english": "they",
     "part_of_speech": "pronoun"
   },
   {
     "word": "sih’kato",
-    "english": "he, she, it; Him/her",
+    "english": "he, she, it",
     "part_of_speech": "pronoun"
   },
   {
     "word": "sih’kayo",
-    "english": "plu you; You",
+    "english": "plu you",
     "part_of_speech": "pronoun"
   },
   {
@@ -8230,6 +8400,11 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "simpol",
+    "english": "found",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "sinabaro",
     "english": "every Saturday",
     "part_of_speech": "adverb"
@@ -8291,7 +8466,7 @@
   },
   {
     "word": "sivog",
-    "english": "to water (the plants); water (the plants)",
+    "english": "to water (the plants)",
     "part_of_speech": "verb"
   },
   {
@@ -8311,7 +8486,7 @@
   },
   {
     "word": "soso",
-    "english": "breast/s; breast",
+    "english": "breast/s",
     "part_of_speech": "noun"
   },
   {
@@ -8346,12 +8521,12 @@
   },
   {
     "word": "sulat",
-    "english": "handwriting, letter; write",
+    "english": "handwriting, letter",
     "part_of_speech": "noun/verb"
   },
   {
     "word": "mansudat",
-    "english": "to write, writing; writing; will write",
+    "english": "to write, writing",
     "part_of_speech": "n/a"
   },
   {
@@ -8471,7 +8646,7 @@
   },
   {
     "word": "ta-ed",
-    "english": "knife; knife/knives",
+    "english": "knife",
     "part_of_speech": "noun"
   },
   {
@@ -8526,7 +8701,7 @@
   },
   {
     "word": "takdai",
-    "english": "hand; arm; hands",
+    "english": "hand",
     "part_of_speech": "noun"
   },
   {
@@ -8626,7 +8801,7 @@
   },
   {
     "word": "tangida",
-    "english": "ear/s; ear/ears",
+    "english": "ear/s",
     "part_of_speech": "noun"
   },
   {
@@ -8711,7 +8886,7 @@
   },
   {
     "word": "tawal",
-    "english": "call, summon; call",
+    "english": "call, summon",
     "part_of_speech": "verb"
   },
   {
@@ -8751,7 +8926,7 @@
   },
   {
     "word": "tayab",
-    "english": "fly, soar; fly",
+    "english": "fly, soar",
     "part_of_speech": "verb"
   },
   {
@@ -8867,6 +9042,11 @@
   {
     "word": "inteneng",
     "english": "heard",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "iteneng",
+    "english": "will hear",
     "part_of_speech": "n/a"
   },
   {
@@ -8996,7 +9176,7 @@
   },
   {
     "word": "toktok",
-    "english": "head, top; head",
+    "english": "head, top",
     "part_of_speech": "noun"
   },
   {
@@ -9071,7 +9251,7 @@
   },
   {
     "word": "to-o",
-    "english": "person, people; people; person",
+    "english": "person, people",
     "part_of_speech": "noun"
   },
   {
@@ -9161,7 +9341,7 @@
   },
   {
     "word": "itulshun",
-    "english": "will push; push",
+    "english": "will push",
     "part_of_speech": "n/a"
   },
   {
@@ -9176,7 +9356,7 @@
   },
   {
     "word": "tungao",
-    "english": "sit, be seated; sit",
+    "english": "sit, be seated",
     "part_of_speech": "verb"
   },
   {
@@ -9251,7 +9431,7 @@
   },
   {
     "word": "tuwa",
-    "english": "where; Which",
+    "english": "where",
     "part_of_speech": "n/a"
   },
   {
@@ -9271,12 +9451,12 @@
   },
   {
     "word": "ubda",
-    "english": "work, labor; work",
+    "english": "work, labor",
     "part_of_speech": "noun/verb"
   },
   {
     "word": "man-ubda",
-    "english": "working, will work; working; will work",
+    "english": "working, will work",
     "part_of_speech": "n/a"
   },
   {
@@ -9327,6 +9507,11 @@
   {
     "word": "i -uli",
     "english": "to return",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nay-uli",
+    "english": "returned",
     "part_of_speech": "n/a"
   },
   {
@@ -9381,7 +9566,7 @@
   },
   {
     "word": "usok",
-    "english": "mine, cave; v enter; enter",
+    "english": "mine, cave; v enter",
     "part_of_speech": "noun"
   },
   {
@@ -9396,7 +9581,7 @@
   },
   {
     "word": "uvet",
-    "english": "behind, buttocks; buttocks/butt",
+    "english": "behind, buttocks",
     "part_of_speech": "noun"
   },
   {
@@ -9445,13 +9630,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "man-ekad",
+    "english": "walking, will walk",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "alam",
-    "english": "get it, take it; ali give it to me, bring with you",
+    "english": "get it, take it",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "alam",
+    "english": "ali give it to me, bring with you",
     "part_of_speech": "n/a"
   },
   {
     "word": "Nay-arague",
     "english": "It is far.",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "asanem",
+    "english": "ekay in a little while",
     "part_of_speech": "n/a"
   },
   {
@@ -9546,7 +9746,12 @@
   },
   {
     "word": "en-esel",
-    "english": "to speak, will speak; will talk",
+    "english": "to speak, will speak",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "baha",
+    "english": "cow",
     "part_of_speech": "n/a"
   },
   {
@@ -9575,6 +9780,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "calshing",
+    "english": "goat",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "ufa",
     "english": "hen",
     "part_of_speech": "n/a"
@@ -9600,8 +9810,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "bahes",
+    "english": "monkey",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "ka-ong",
     "english": "pig",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "botbotog",
+    "english": "piglets",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "kawitan",
+    "english": "rooster",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "oleg",
+    "english": "snake",
     "part_of_speech": "n/a"
   },
   {
@@ -9625,6 +9855,21 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "abal-abal",
+    "english": "beetle/s",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sifet",
+    "english": "cockroach",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "badahi",
+    "english": "big black roach",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "babelting, belbelting",
     "english": "cricket",
     "part_of_speech": "n/a"
@@ -9640,8 +9885,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "shuron",
+    "english": "grasshopper",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "guared baley",
     "english": "at home",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ngah’ngah’",
+    "english": "baby",
     "part_of_speech": "n/a"
   },
   {
@@ -9660,8 +9915,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "bakdang",
+    "english": "body",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "toktok",
+    "english": "head",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "buwek",
+    "english": "hair",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "dufa",
     "english": "face",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "temok",
+    "english": "forehead",
     "part_of_speech": "n/a"
   },
   {
@@ -9695,6 +9970,16 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "shila",
+    "english": "tongue",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "tangida",
+    "english": "ear/ears",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "bokdow",
     "english": "neck",
     "part_of_speech": "n/a"
@@ -9710,8 +9995,38 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "takdai",
+    "english": "arm",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "takdai",
+    "english": "hands",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "kalumot",
+    "english": "fingers",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "koho",
     "english": "fingernails",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "seho",
+    "english": "elbow",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "paggow",
+    "english": "chest",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "soso",
+    "english": "breast",
     "part_of_speech": "n/a"
   },
   {
@@ -9730,8 +10045,33 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "apko",
+    "english": "bile",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "batin",
     "english": "kidney/s",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ekkes",
+    "english": "stomach",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "susot",
+    "english": "intestines",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "birong",
+    "english": "bladder",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "uvet",
+    "english": "buttocks/butt",
     "part_of_speech": "n/a"
   },
   {
@@ -9745,8 +10085,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "seddi",
+    "english": "leg/s",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "shafan",
-    "english": "foot/feet; sole",
+    "english": "foot/feet",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "otin",
+    "english": "vagina",
     "part_of_speech": "n/a"
   },
   {
@@ -9757,6 +10107,16 @@
   {
     "word": "komod",
     "english": "heel",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "shafan",
+    "english": "sole",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "kalumot",
+    "english": "toe/s",
     "part_of_speech": "n/a"
   },
   {
@@ -9812,6 +10172,11 @@
   {
     "word": "kaledjo shiyay",
     "english": "come here",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "shiyay",
+    "english": "tukaljo",
     "part_of_speech": "n/a"
   },
   {
@@ -9875,6 +10240,21 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "a-anak",
+    "english": "children",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "aggi",
+    "english": "brother",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "aggi",
+    "english": "sister",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "afo, lolo, lolong, lelong",
     "english": "grandfather",
     "part_of_speech": "n/a"
@@ -9882,6 +10262,16 @@
   {
     "word": "afo, lola, lolang, lelang",
     "english": "grandmother",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pangina-an",
+    "english": "aunt",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pangama-an",
+    "english": "uncle",
     "part_of_speech": "n/a"
   },
   {
@@ -9901,12 +10291,27 @@
   },
   {
     "word": "afo",
-    "english": "grandchild; grandchildren",
+    "english": "grandchild",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "afo",
+    "english": "grandchildren",
     "part_of_speech": "n/a"
   },
   {
     "word": "ka-afo-an, ap-afo",
     "english": "ancestors",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ka-it",
+    "english": "kin",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ka-it",
+    "english": "relatives",
     "part_of_speech": "n/a"
   },
   {
@@ -10010,6 +10415,21 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "buvong",
+    "english": "roof",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "shingshing",
+    "english": "wall/s",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "tawa",
+    "english": "window/s",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "ah’mesan",
     "english": "bathroom",
     "part_of_speech": "n/a"
@@ -10025,8 +10445,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "bangko",
+    "english": "bench",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "tado-an",
     "english": "cabinet",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "suhong",
+    "english": "corner",
     "part_of_speech": "n/a"
   },
   {
@@ -10041,12 +10471,17 @@
   },
   {
     "word": "damesa-an",
-    "english": "desk; table",
+    "english": "desk",
     "part_of_speech": "n/a"
   },
   {
     "word": "kosina",
     "english": "kitchen",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "tasa",
+    "english": "cup",
     "part_of_speech": "n/a"
   },
   {
@@ -10060,8 +10495,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ta-ed",
+    "english": "knife/knives",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "(bolo) ettak",
     "english": "big knife",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pingkan",
+    "english": "plate",
     "part_of_speech": "n/a"
   },
   {
@@ -10090,6 +10535,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "damesa-an",
+    "english": "table",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "caseljas",
     "english": "toilet",
     "part_of_speech": "n/a"
@@ -10112,6 +10562,11 @@
   {
     "word": "Ngantoy dekna yo?",
     "english": "How are you feeling?",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "Ngantoy impasing to?",
+    "english": "How did it happen?",
     "part_of_speech": "n/a"
   },
   {
@@ -10205,8 +10660,23 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "eshahel",
+    "english": "many",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "Eshahel ie to-o.",
     "english": "There are many people",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pilak",
+    "english": "money",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "eshahel",
+    "english": "much",
     "part_of_speech": "n/a"
   },
   {
@@ -10226,7 +10696,12 @@
   },
   {
     "word": "aishi",
-    "english": "no; none; nothing",
+    "english": "no",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "aishi",
+    "english": "none",
     "part_of_speech": "n/a"
   },
   {
@@ -10235,13 +10710,118 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "aishi",
+    "english": "nothing",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "niman",
+    "english": "now",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "niman ma tep",
     "english": "now that",
     "part_of_speech": "n/a"
   },
   {
+    "word": "bilang",
+    "english": "numbers",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sahei",
+    "english": "one",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "shuwa",
+    "english": "two",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "teddo",
+    "english": "three",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "epat",
+    "english": "four",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "dima",
+    "english": "five",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "enem",
+    "english": "six",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pito",
+    "english": "seven",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "gualo",
+    "english": "eight",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "siyam",
+    "english": "nine",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo",
+    "english": "ten",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "sampulo tan sahei",
     "english": "eleven",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan shuwa",
+    "english": "twelve",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan teddo",
+    "english": "thirteen",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan epat",
+    "english": "fourteen",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan dima",
+    "english": "fifteen",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan enem",
+    "english": "sixteen",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan pito",
+    "english": "seventeen",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan gualo",
+    "english": "eighteen",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sampolo tan siyam",
+    "english": "nineteen",
     "part_of_speech": "n/a"
   },
   {
@@ -10255,13 +10835,43 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "epat ta polo",
+    "english": "forty",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "dimen polo",
+    "english": "fifty",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "enema polo",
     "english": "sixty",
     "part_of_speech": "n/a"
   },
   {
+    "word": "piton polo",
+    "english": "seventy",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "gualon polo",
+    "english": "eighty",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "siyama polo",
     "english": "ninety",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "san dasos",
+    "english": "one hundred",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "shuwen dasos",
+    "english": "two hundred",
     "part_of_speech": "n/a"
   },
   {
@@ -10275,13 +10885,33 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "dimen dasos",
+    "english": "five hundred",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "eenema dasos",
     "english": "six hundred",
     "part_of_speech": "n/a"
   },
   {
+    "word": "piton dasos",
+    "english": "seven hundred",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "gualon dasos",
+    "english": "eight hundred",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "siyama dasos",
     "english": "nine hundred",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "san divo",
+    "english": "one thousand",
     "part_of_speech": "n/a"
   },
   {
@@ -10292,6 +10922,16 @@
   {
     "word": "san ifinsak",
     "english": "once in a while",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "to-o",
+    "english": "people",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "to-o",
+    "english": "person",
     "part_of_speech": "n/a"
   },
   {
@@ -10420,8 +11060,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "sih’kak",
+    "english": "Me",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "In-ahan to sun* sih’kak.",
     "english": "He gave it to me",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sih’kam",
+    "english": "You",
     "part_of_speech": "n/a"
   },
   {
@@ -10430,8 +11080,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "sih’kato",
+    "english": "Him/her",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "In-ahan to sun*",
     "english": "He gave it to him/her",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sih’kami",
+    "english": "Us",
     "part_of_speech": "n/a"
   },
   {
@@ -10440,8 +11100,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "sih’kayo",
+    "english": "You",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "In-ahan to sun sih’kayo.",
     "english": "He gave it to you",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sih’kara",
+    "english": "Them",
     "part_of_speech": "n/a"
   },
   {
@@ -10471,7 +11141,7 @@
   },
   {
     "word": "Ngaran niman?",
-    "english": "What is that; What is that?",
+    "english": "What is that",
     "part_of_speech": "n/a"
   },
   {
@@ -10500,6 +11170,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "eman ko",
+    "english": "Mine",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "Eman ko etan",
     "english": "That is mine",
     "part_of_speech": "n/a"
@@ -10510,8 +11185,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "eman to",
+    "english": "His/hers",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "Satan ie eman to.",
     "english": "That is his/hers",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "eman tayo",
+    "english": "Ours",
     "part_of_speech": "n/a"
   },
   {
@@ -10537,6 +11222,11 @@
   {
     "word": "Nganto y ngaran mo?",
     "english": "What’s your name?",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "Ngaran niman?",
+    "english": "What is that?",
     "part_of_speech": "n/a"
   },
   {
@@ -10587,6 +11277,11 @@
   {
     "word": "Tuwa y dagwan mo?",
     "english": "Where are you going?",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "tuwa",
+    "english": "Which",
     "part_of_speech": "n/a"
   },
   {
@@ -10720,8 +11415,23 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "akow",
+    "english": "day",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "buwasto",
+    "english": "day after tomorrow",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "kah’shiman",
     "english": "day before yesterday",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "niman",
+    "english": "now",
     "part_of_speech": "n/a"
   },
   {
@@ -10737,6 +11447,11 @@
   {
     "word": "nashem",
     "english": "yesterday",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "Domingko",
+    "english": "Sunday",
     "part_of_speech": "n/a"
   },
   {
@@ -10765,6 +11480,16 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "Sabaro",
+    "english": "Saturday",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "domingko",
+    "english": "week",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "sahei jen domingko",
     "english": "one week",
     "part_of_speech": "n/a"
@@ -10785,8 +11510,13 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "hadjay alin domingko",
+    "english": "next week",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "hadjay alin Domingko",
-    "english": "next week; next Sunday",
+    "english": "next Sunday",
     "part_of_speech": "n/a"
   },
   {
@@ -10910,6 +11640,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "badon tao-en",
+    "english": "new year",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "niman na tao-en",
     "english": "this year",
     "part_of_speech": "n/a"
@@ -10995,6 +11730,16 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "savi",
+    "english": "approach",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mansebi",
+    "english": "approaching",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "semavi, sembi",
     "english": "approached",
     "part_of_speech": "n/a"
@@ -11065,6 +11810,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "bulow",
+    "english": "bark",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "manbudow",
     "english": "barking",
     "part_of_speech": "n/a"
@@ -11081,7 +11831,7 @@
   },
   {
     "word": "ah’mesen",
-    "english": "bathe; will bathe",
+    "english": "bathe",
     "part_of_speech": "n/a"
   },
   {
@@ -11100,6 +11850,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ah’mesen",
+    "english": "will bathe",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "Ah’mesen tu ima ngah’ngah’ nem ekai.",
     "english": "She will bathe the baby in a while.",
     "part_of_speech": "n/a"
@@ -11111,7 +11866,7 @@
   },
   {
     "word": "man-ah’mes",
-    "english": "taking a bath; will take a bath",
+    "english": "taking a bath",
     "part_of_speech": "n/a"
   },
   {
@@ -11130,6 +11885,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "man-ah’mes",
+    "english": "will take a bath",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "Man-ah’mes sikato.",
     "english": "She will take a bath.",
     "part_of_speech": "n/a"
@@ -11137,6 +11897,16 @@
   {
     "word": "en-uli",
     "english": "be back",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "may-udi",
+    "english": "be going back",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nay-uli",
+    "english": "went back",
     "part_of_speech": "n/a"
   },
   {
@@ -11225,13 +11995,23 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "dastog",
+    "english": "brag",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "mandastog",
-    "english": "bragging; will brag",
+    "english": "bragging",
     "part_of_speech": "n/a"
   },
   {
     "word": "nandastog",
     "english": "bragged",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mandastog",
+    "english": "will brag",
     "part_of_speech": "n/a"
   },
   {
@@ -11275,6 +12055,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "tungkal",
+    "english": "buy",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "mennungkal",
     "english": "buying",
     "part_of_speech": "n/a"
@@ -11287,6 +12072,11 @@
   {
     "word": "tungkalen",
     "english": "will buy",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "tawal",
+    "english": "call",
     "part_of_speech": "n/a"
   },
   {
@@ -11345,6 +12135,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "sah’dat",
+    "english": "change",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "man-sah’dat, pan-sahdati",
     "english": "changing",
     "part_of_speech": "n/a"
@@ -11366,12 +12161,22 @@
   },
   {
     "word": "man-bah’diw",
-    "english": "chanting; will chant",
+    "english": "chanting",
     "part_of_speech": "n/a"
   },
   {
     "word": "nan-bah’diw",
     "english": "chanted",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-bah’diw",
+    "english": "will chant",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "belsig",
+    "english": "chop (wood)",
     "part_of_speech": "n/a"
   },
   {
@@ -11387,6 +12192,26 @@
   {
     "word": "mem-melsig",
     "english": "will chop",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "dinis",
+    "english": "clean",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mandinis",
+    "english": "cleaning",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nandinis",
+    "english": "cleaned",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mandinis",
+    "english": "will clean",
     "part_of_speech": "n/a"
   },
   {
@@ -11410,6 +12235,26 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "duto",
+    "english": "cook",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "manduto",
+    "english": "cooking",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nanduto",
+    "english": "cooked",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "manduto",
+    "english": "will cook",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "panduto",
     "english": "cook imperative",
     "part_of_speech": "n/a"
@@ -11417,6 +12262,11 @@
   {
     "word": "Panduto ha.",
     "english": "You cook.",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "embaliw",
+    "english": "cross",
     "part_of_speech": "n/a"
   },
   {
@@ -11436,7 +12286,7 @@
   },
   {
     "word": "mansaktil",
-    "english": "cross one’s legs; will cross one’s legs",
+    "english": "cross one’s legs",
     "part_of_speech": "n/a"
   },
   {
@@ -11447,6 +12297,11 @@
   {
     "word": "nansaktil",
     "english": "crossed one’s legs",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mansaktil",
+    "english": "will cross one’s legs",
     "part_of_speech": "n/a"
   },
   {
@@ -11491,7 +12346,7 @@
   },
   {
     "word": "metey",
-    "english": "die; will die",
+    "english": "die",
     "part_of_speech": "n/a"
   },
   {
@@ -11505,8 +12360,13 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "metey",
+    "english": "will die",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "ibiyang",
-    "english": "disown; will disown",
+    "english": "disown",
     "part_of_speech": "n/a"
   },
   {
@@ -11517,6 +12377,11 @@
   {
     "word": "inbiyang",
     "english": "disowned",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ibiyang",
+    "english": "will disown",
     "part_of_speech": "n/a"
   },
   {
@@ -11545,6 +12410,16 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ikayad",
+    "english": "drag",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pan-ikayad",
+    "english": "dragging",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "inkayad, naykayad",
     "english": "dragged",
     "part_of_speech": "n/a"
@@ -11570,6 +12445,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "man-inom",
+    "english": "will drink",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "na-inom",
     "english": "has/have/had been drunk",
     "part_of_speech": "n/a"
@@ -11577,6 +12457,26 @@
   {
     "word": "Na-inomjen emin dai",
     "english": "All the wine has been drunk.",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mengan",
+    "english": "eat",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "emengan",
+    "english": "eating",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "engan",
+    "english": "ate",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mengan",
+    "english": "will eat",
     "part_of_speech": "n/a"
   },
   {
@@ -11610,6 +12510,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "usok",
+    "english": "enter",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "man-usok",
     "english": "entering",
     "part_of_speech": "n/a"
@@ -11640,6 +12545,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ma-ikot",
+    "english": "will envy",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "enbasol, mangkamali",
     "english": "err/make a mistake",
     "part_of_speech": "n/a"
@@ -11657,6 +12567,11 @@
   {
     "word": "embasol, mangkamali",
     "english": "will err",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pahan",
+    "english": "feed",
     "part_of_speech": "n/a"
   },
   {
@@ -11715,6 +12630,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "tayab",
+    "english": "fly",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "mantaytayab, menanayab",
     "english": "flying",
     "part_of_speech": "n/a"
@@ -11747,6 +12667,11 @@
   {
     "word": "ah’deggen",
     "english": "will forbid",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pilit",
+    "english": "force",
     "part_of_speech": "n/a"
   },
   {
@@ -11787,6 +12712,11 @@
   {
     "word": "imperative Dibkim.",
     "english": "Forget it.",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ibulos",
+    "english": "free",
     "part_of_speech": "n/a"
   },
   {
@@ -11845,6 +12775,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ala",
+    "english": "get",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "pan-al-a",
     "english": "getting",
     "part_of_speech": "n/a"
@@ -11865,8 +12800,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ahan",
+    "english": "give",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "pan i-ahan",
     "english": "giving",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "in-ahan",
+    "english": "gave",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "i-ahan",
+    "english": "will give",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nay-ahan",
+    "english": "given",
     "part_of_speech": "n/a"
   },
   {
@@ -11876,12 +12831,17 @@
   },
   {
     "word": "mannutnut",
-    "english": "gossiping; will gossip",
+    "english": "gossiping",
     "part_of_speech": "n/a"
   },
   {
     "word": "nannutnut",
     "english": "gossiped",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mannutnut",
+    "english": "will gossip",
     "part_of_speech": "n/a"
   },
   {
@@ -11951,7 +12911,7 @@
   },
   {
     "word": "kanu-an",
-    "english": "hurry; will hurry",
+    "english": "hurry",
     "part_of_speech": "n/a"
   },
   {
@@ -11962,6 +12922,11 @@
   {
     "word": "kinanu-an",
     "english": "hurried",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "kanu-an",
+    "english": "will hurry",
     "part_of_speech": "n/a"
   },
   {
@@ -12006,7 +12971,7 @@
   },
   {
     "word": "ngi-ngi-an",
-    "english": "laugh at; will laugh at",
+    "english": "laugh at",
     "part_of_speech": "n/a"
   },
   {
@@ -12020,18 +12985,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ngi-ngi-an",
+    "english": "will laugh at",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "daba",
     "english": "launder",
     "part_of_speech": "n/a"
   },
   {
     "word": "mandaba",
-    "english": "laundering; will launder",
+    "english": "laundering",
     "part_of_speech": "n/a"
   },
   {
     "word": "nandaba",
     "english": "laundered",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mandaba",
+    "english": "will launder",
     "part_of_speech": "n/a"
   },
   {
@@ -12047,6 +13022,11 @@
   {
     "word": "naysakpal, insakpal",
     "english": "laid",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "isakpal",
+    "english": "will lay",
     "part_of_speech": "n/a"
   },
   {
@@ -12071,7 +13051,12 @@
   },
   {
     "word": "shimuhol",
-    "english": "lay; lain",
+    "english": "lay",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "shimuhol",
+    "english": "lain",
     "part_of_speech": "n/a"
   },
   {
@@ -12086,12 +13071,17 @@
   },
   {
     "word": "man-u-uwap",
-    "english": "lying; will lie",
+    "english": "lying",
     "part_of_speech": "n/a"
   },
   {
     "word": "nan-uwap",
     "english": "lied",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-u-uwap",
+    "english": "will lie",
     "part_of_speech": "n/a"
   },
   {
@@ -12116,7 +13106,7 @@
   },
   {
     "word": "iningning",
-    "english": "look at; will look at",
+    "english": "look at",
     "part_of_speech": "n/a"
   },
   {
@@ -12127,6 +13117,16 @@
   {
     "word": "inningning",
     "english": "looked at",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "iningning",
+    "english": "will look at",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "anap",
+    "english": "look for",
     "part_of_speech": "n/a"
   },
   {
@@ -12186,7 +13186,7 @@
   },
   {
     "word": "man-asegua",
-    "english": "marry/wed; will marry",
+    "english": "marry/wed",
     "part_of_speech": "n/a"
   },
   {
@@ -12195,8 +13195,13 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "man-asegua",
+    "english": "will marry",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "bayshan",
-    "english": "pay; will pay",
+    "english": "pay",
     "part_of_speech": "n/a"
   },
   {
@@ -12210,6 +13215,21 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "bayshan",
+    "english": "will pay",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "shemet",
+    "english": "pick",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "panshedmeta",
+    "english": "picking",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "shenmet",
     "english": "picked",
     "part_of_speech": "n/a"
@@ -12220,6 +13240,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "pispis",
+    "english": "pick out",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "panpispisa",
     "english": "picking out",
     "part_of_speech": "n/a"
@@ -12227,6 +13252,16 @@
   {
     "word": "pinispis",
     "english": "picked out",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pispisen",
+    "english": "will pick out",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ka-asi",
+    "english": "pity",
     "part_of_speech": "n/a"
   },
   {
@@ -12242,6 +13277,16 @@
   {
     "word": "ka-asian*",
     "english": "will pity",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ah’sek",
+    "english": "plant",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ah’sek",
+    "english": "planting",
     "part_of_speech": "n/a"
   },
   {
@@ -12275,13 +13320,33 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "itulshun",
+    "english": "push",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "pan-itulshun",
+    "english": "pushing",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "intulshun",
+    "english": "pushed",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "itulshun",
+    "english": "will push",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "dongba",
     "english": "race",
     "part_of_speech": "n/a"
   },
   {
     "word": "mandongba",
-    "english": "racing; will race",
+    "english": "racing",
     "part_of_speech": "n/a"
   },
   {
@@ -12290,8 +13355,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "mandongba",
+    "english": "will race",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "oran",
     "english": "rain",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-oshan",
+    "english": "raining",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "imoran",
+    "english": "rained",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "en-oran",
+    "english": "will rain",
     "part_of_speech": "n/a"
   },
   {
@@ -12312,6 +13397,11 @@
   {
     "word": "basa-en",
     "english": "will read",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "awat",
+    "english": "receive",
     "part_of_speech": "n/a"
   },
   {
@@ -12336,12 +13426,17 @@
   },
   {
     "word": "mantangkad",
-    "english": "recuperating; will recuperate",
+    "english": "recuperating",
     "part_of_speech": "n/a"
   },
   {
     "word": "nantangkad",
     "english": "recuperated",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mantangkad",
+    "english": "will recuperate",
     "part_of_speech": "n/a"
   },
   {
@@ -12351,12 +13446,17 @@
   },
   {
     "word": "manbebawi",
-    "english": "regretting; will regret",
+    "english": "regretting",
     "part_of_speech": "n/a"
   },
   {
     "word": "nanbebawi",
     "english": "regretted",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "manbebawi",
+    "english": "will regret",
     "part_of_speech": "n/a"
   },
   {
@@ -12366,7 +13466,7 @@
   },
   {
     "word": "mannemnemnem",
-    "english": "remembering; thinking",
+    "english": "remembering",
     "part_of_speech": "n/a"
   },
   {
@@ -12386,12 +13486,22 @@
   },
   {
     "word": "man-ebdey",
-    "english": "resting; will rest",
+    "english": "resting",
     "part_of_speech": "n/a"
   },
   {
     "word": "nan-ebdey, nay-ebdeyan",
     "english": "rested",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ebdey",
+    "english": "will rest",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "i-uli",
+    "english": "return",
     "part_of_speech": "n/a"
   },
   {
@@ -12407,6 +13517,11 @@
   {
     "word": "i-uli, may-udi",
     "english": "will return",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "betek",
+    "english": "run",
     "part_of_speech": "n/a"
   },
   {
@@ -12426,7 +13541,7 @@
   },
   {
     "word": "italo",
-    "english": "save; will save",
+    "english": "save",
     "part_of_speech": "n/a"
   },
   {
@@ -12437,6 +13552,11 @@
   {
     "word": "intalo",
     "english": "saved",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "italo",
+    "english": "will save",
     "part_of_speech": "n/a"
   },
   {
@@ -12480,18 +13600,43 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "tungao",
+    "english": "sit",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mantutungao",
+    "english": "sitting",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "timungao",
+    "english": "sat",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "entungao",
+    "english": "will sit",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "kansiyon",
     "english": "sing",
     "part_of_speech": "n/a"
   },
   {
     "word": "man-kansiyon",
-    "english": "singing; will sing",
+    "english": "singing",
     "part_of_speech": "n/a"
   },
   {
     "word": "nan-kansiyon",
     "english": "sang",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-kansiyon",
+    "english": "will sing",
     "part_of_speech": "n/a"
   },
   {
@@ -12510,18 +13655,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ma-ukip",
+    "english": "will sleep",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "mangit",
     "english": "smile",
     "part_of_speech": "n/a"
   },
   {
     "word": "manmamangit",
-    "english": "smiling; will smile",
+    "english": "smiling",
     "part_of_speech": "n/a"
   },
   {
     "word": "namngit",
     "english": "smiled",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "manmamangit",
+    "english": "will smile",
     "part_of_speech": "n/a"
   },
   {
@@ -12545,6 +13700,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "dayat",
+    "english": "stand",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "dimaydayat, mandedejat",
     "english": "standing",
     "part_of_speech": "n/a"
@@ -12552,6 +13712,46 @@
   {
     "word": "dimayat, edayat",
     "english": "stood",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "endayat",
+    "english": "will stand",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "iyan",
+    "english": "stay",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-iyan",
+    "english": "staying",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nan-iyan",
+    "english": "stayed",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-iyan",
+    "english": "will stay",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "salsheng",
+    "english": "stop",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mansalsheng",
+    "english": "stopping",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "simalsheng",
+    "english": "stopped",
     "part_of_speech": "n/a"
   },
   {
@@ -12575,6 +13775,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "mansepata",
+    "english": "will swear",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "sih’si",
     "english": "sweep",
     "part_of_speech": "n/a"
@@ -12595,13 +13800,43 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "esel",
+    "english": "talk",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ah’sel",
+    "english": "talking",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "imesel",
     "english": "talked",
     "part_of_speech": "n/a"
   },
   {
+    "word": "en-esel",
+    "english": "will talk",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "namtan",
+    "english": "taste",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "pannamti",
     "english": "tasting",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ninamtan",
+    "english": "tasted",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "namtan",
+    "english": "will taste",
     "part_of_speech": "n/a"
   },
   {
@@ -12646,7 +13881,7 @@
   },
   {
     "word": "ipugno",
-    "english": "tell the truth; will tell the truth",
+    "english": "tell the truth",
     "part_of_speech": "n/a"
   },
   {
@@ -12657,6 +13892,11 @@
   {
     "word": "in-pugno",
     "english": "told the truth",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ipugno",
+    "english": "will tell the truth",
     "part_of_speech": "n/a"
   },
   {
@@ -12680,6 +13920,16 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "nemnem",
+    "english": "think",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mannemnemnem",
+    "english": "thinking",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "ninemnem",
     "english": "thought",
     "part_of_speech": "n/a"
@@ -12690,8 +13940,18 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ivong",
+    "english": "throw",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "pan-i-ivong, mangka-ivong",
     "english": "throwing",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nay-ivong",
+    "english": "threw",
     "part_of_speech": "n/a"
   },
   {
@@ -12740,6 +14000,11 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "paras",
+    "english": "try",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "pan-iparas",
     "english": "trying",
     "part_of_speech": "n/a"
@@ -12747,6 +14012,11 @@
   {
     "word": "pineshas, inparas",
     "english": "tried",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "iparas",
+    "english": "will try",
     "part_of_speech": "n/a"
   },
   {
@@ -12767,6 +14037,26 @@
   {
     "word": "manbodidi, manposipos",
     "english": "will turn",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "ahad",
+    "english": "walk",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ekad",
+    "english": "walking",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nan-ahad",
+    "english": "walked",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ekad",
+    "english": "will walk",
     "part_of_speech": "n/a"
   },
   {
@@ -12795,13 +14085,28 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "manshah’dop",
+    "english": "washing one’s face",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "nanshah’dop",
     "english": "washed one’s face",
     "part_of_speech": "n/a"
   },
   {
+    "word": "manshah’dop",
+    "english": "will wash one’s face",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sivog",
+    "english": "water (the plants)",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "menibog",
-    "english": "watering; will water",
+    "english": "watering",
     "part_of_speech": "n/a"
   },
   {
@@ -12810,8 +14115,38 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "menibog",
+    "english": "will water",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "damon",
+    "english": "weed",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mandemon",
+    "english": "weeding",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "mangkadamoni",
     "english": "being weeded",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nandamon",
+    "english": "weeded",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "edamonan",
+    "english": "has, have, had been weeded",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mandemon",
+    "english": "will weed",
     "part_of_speech": "n/a"
   },
   {
@@ -12842,6 +14177,11 @@
   {
     "word": "ituvo",
     "english": "will whisper",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "avak",
+    "english": "win",
     "part_of_speech": "n/a"
   },
   {
@@ -12900,6 +14240,26 @@
     "part_of_speech": "n/a"
   },
   {
+    "word": "ubda",
+    "english": "work",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ubda",
+    "english": "working",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nan-ubda",
+    "english": "worked",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "man-ubda",
+    "english": "will work",
+    "part_of_speech": "n/a"
+  },
+  {
     "word": "shanag",
     "english": "worry",
     "part_of_speech": "n/a"
@@ -12917,6 +14277,31 @@
   {
     "word": "enshanag, manshanag",
     "english": "will worry",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "sulat",
+    "english": "write",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mansudat",
+    "english": "writing",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "nansulat",
+    "english": "wrote",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "naysulat",
+    "english": "written",
+    "part_of_speech": "n/a"
+  },
+  {
+    "word": "mansudat",
+    "english": "will write",
     "part_of_speech": "n/a"
   },
   {

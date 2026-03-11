@@ -49,8 +49,8 @@
   },
   {
     "word": "Tauli",
-    "english": "Bachelor; return",
-    "tagalog": "binata; pagbabalik",
+    "english": "Bachelor",
+    "tagalog": "binata",
     "part_of_speech": "noun"
   },
   {
@@ -79,14 +79,14 @@
   },
   {
     "word": "Gawis",
-    "english": "Beautiful; Good",
-    "tagalog": "maganda; mabuti",
+    "english": "Beautiful",
+    "tagalog": "maganda",
     "part_of_speech": "adjective"
   },
   {
     "word": "Gawis AY agew",
-    "english": "Beautiful day; Good Day to You!; have a nice day",
-    "tagalog": "Magandang araw; Magandang araw sa iyo!",
+    "english": "Beautiful day",
+    "tagalog": "Magandang araw",
     "part_of_speech": "adjective"
   },
   {
@@ -97,9 +97,9 @@
   },
   {
     "word": "Dakdake",
-    "english": "Big; big/large",
-    "tagalog": "malaki; malaking malaki",
-    "part_of_speech": "noun"
+    "english": "Big",
+    "tagalog": "malaki",
+    "part_of_speech": "adjective"
   },
   {
     "word": "Dakedake",
@@ -139,9 +139,9 @@
   },
   {
     "word": "Lumako",
-    "english": "Buy; To buy",
-    "tagalog": "Bumili; Bilhin; bili",
-    "part_of_speech": "verb"
+    "english": "Buy",
+    "tagalog": "Bumili",
+    "part_of_speech": "noun"
   },
   {
     "word": "Ayagan",
@@ -151,8 +151,8 @@
   },
   {
     "word": "Naayagan",
-    "english": "Called; this one",
-    "tagalog": "tinatawag; itong isa",
+    "english": "Called",
+    "tagalog": "tinatawag",
     "part_of_speech": "noun"
   },
   {
@@ -229,9 +229,9 @@
   },
   {
     "word": "Kaeegyat",
-    "english": "Dangerous; Frightening",
-    "tagalog": "Mapanganib; nakakatakot",
-    "part_of_speech": "noun"
+    "english": "Dangerous",
+    "tagalog": "Mapanganib",
+    "part_of_speech": "adjective"
   },
   {
     "word": "Tan-o",
@@ -241,8 +241,8 @@
   },
   {
     "word": "Agew",
-    "english": "Day; day/sun",
-    "tagalog": "araw; araw / sun",
+    "english": "Day",
+    "tagalog": "araw",
     "part_of_speech": "noun"
   },
   {
@@ -259,9 +259,9 @@
   },
   {
     "word": "Matey",
-    "english": "Die; To die",
+    "english": "Die",
     "tagalog": "mamatay",
-    "part_of_speech": "verb"
+    "part_of_speech": "noun"
   },
   {
     "word": "Kaoban",
@@ -355,7 +355,7 @@
   },
   {
     "word": "Mata",
-    "english": "Eye; eyes",
+    "english": "Eye",
     "tagalog": "mata",
     "part_of_speech": "noun"
   },
@@ -397,8 +397,8 @@
   },
   {
     "word": "Gumot",
-    "english": "Finger; Toe; thumb",
-    "tagalog": "Daliri; daliri ng paa; hinlalaki",
+    "english": "Finger",
+    "tagalog": "Daliri",
     "part_of_speech": "noun"
   },
   {
@@ -409,7 +409,7 @@
   },
   {
     "word": "Padukyaw",
-    "english": "Forefinger",
+    "english": "�Forefinger",
     "tagalog": "hintuturo",
     "part_of_speech": "noun"
   },
@@ -480,15 +480,21 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Kaeegyat",
+    "english": "Frightening",
+    "tagalog": "nakakatakot",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Tenged",
-    "english": "Front neck; Neck",
-    "tagalog": "front leeg; leeg",
+    "english": "Front neck",
+    "tagalog": "front leeg",
     "part_of_speech": "noun"
   },
   {
     "word": "Bagang",
-    "english": "Back of neck; Nape",
-    "tagalog": "Batukan; batok",
+    "english": "Back of neck",
+    "tagalog": "Batukan",
     "part_of_speech": "noun"
   },
   {
@@ -511,20 +517,26 @@
   },
   {
     "word": "Men-at-ated",
-    "english": "Giver; Giving",
-    "tagalog": "tagabigay; Pagbibigay",
+    "english": "Giver",
+    "tagalog": "tagabigay",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Men-at-ated",
+    "english": "Giving",
+    "tagalog": "Pagbibigay",
     "part_of_speech": "noun"
   },
   {
     "word": "Nalagsak",
-    "english": "Glad; happy",
+    "english": "Glad",
     "tagalog": "Masaya",
-    "part_of_speech": "adjective"
+    "part_of_speech": "noun"
   },
   {
     "word": "Umey",
-    "english": "Go; To go",
-    "tagalog": "Tara; upang pumunta",
+    "english": "Go",
+    "tagalog": "Tara",
     "part_of_speech": "verb"
   },
   {
@@ -532,6 +544,18 @@
     "english": "God",
     "tagalog": "Diyos",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Gawis",
+    "english": "Good",
+    "tagalog": "mabuti",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "Gawis AY agew",
+    "english": "Good Day to You!",
+    "tagalog": "Magandang araw sa iyo!",
+    "part_of_speech": "adjective"
   },
   {
     "word": "Gawis ay agsapa",
@@ -568,6 +592,12 @@
     "english": "I am going",
     "tagalog": "Aalis ako",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Tumauli",
+    "english": "Going back",
+    "tagalog": "balik",
+    "part_of_speech": "verb"
   },
   {
     "word": "Bumala",
@@ -673,7 +703,7 @@
   },
   {
     "word": "Nauwat",
-    "english": "Hungry; hunger",
+    "english": "Hungry",
     "tagalog": "gutom",
     "part_of_speech": "noun"
   },
@@ -769,8 +799,8 @@
   },
   {
     "word": "Lalaki",
-    "english": "Man; boy",
-    "tagalog": "Lalaki; batang lalaki",
+    "english": "Man",
+    "tagalog": "Lalaki",
     "part_of_speech": "noun"
   },
   {
@@ -781,7 +811,7 @@
   },
   {
     "word": "Tenga",
-    "english": "Middle; center",
+    "english": "Middle",
     "tagalog": "gitna",
     "part_of_speech": "noun"
   },
@@ -816,6 +846,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Bagang",
+    "english": "Nape",
+    "tagalog": "batok",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Pulos",
     "english": "Never",
     "tagalog": "hindi kailanman",
@@ -835,8 +871,8 @@
   },
   {
     "word": "maid",
-    "english": "None/Nothing; none",
-    "tagalog": "Wala / Wala; wala",
+    "english": "None/Nothing",
+    "tagalog": "Wala / Wala",
     "part_of_speech": "noun"
   },
   {
@@ -883,14 +919,14 @@
   },
   {
     "word": "Daan",
-    "english": "Pathway; Way; hall; street",
-    "tagalog": "landas; paraan; bulwagan; kalye",
+    "english": "Pathway",
+    "tagalog": "landas",
     "part_of_speech": "noun"
   },
   {
     "word": "Ipugaw",
-    "english": "Person; people",
-    "tagalog": "tao; mga tao",
+    "english": "Person",
+    "tagalog": "tao",
     "part_of_speech": "noun"
   },
   {
@@ -991,8 +1027,8 @@
   },
   {
     "word": "Kalsa",
-    "english": "Road; Street",
-    "tagalog": "daan; kalye",
+    "english": "Road",
+    "tagalog": "daan",
     "part_of_speech": "noun"
   },
   {
@@ -1021,8 +1057,8 @@
   },
   {
     "word": "Kinwani",
-    "english": "Said by; statement",
-    "tagalog": "sinabi sa pamamagitan ng; pahayag",
+    "english": "Said by",
+    "tagalog": "sinabi sa pamamagitan ng",
     "part_of_speech": "noun"
   },
   {
@@ -1033,8 +1069,8 @@
   },
   {
     "word": "Inila",
-    "english": "Saw; Seen",
-    "tagalog": "lagari; nakikita",
+    "english": "Saw",
+    "tagalog": "lagari",
     "part_of_speech": "noun"
   },
   {
@@ -1054,6 +1090,12 @@
     "english": "See",
     "tagalog": "makita",
     "part_of_speech": "verb"
+  },
+  {
+    "word": "Inila",
+    "english": "Seen",
+    "tagalog": "nakikita",
+    "part_of_speech": "noun"
   },
   {
     "word": "Maseyep",
@@ -1105,7 +1147,7 @@
   },
   {
     "word": "Bato",
-    "english": "Stone; rock",
+    "english": "Stone",
     "tagalog": "bato",
     "part_of_speech": "noun"
   },
@@ -1116,6 +1158,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Kalsa",
+    "english": "Street",
+    "tagalog": "kalye",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Oskila",
     "english": "Student",
     "tagalog": "Mag-aaral",
@@ -1123,8 +1171,8 @@
   },
   {
     "word": "Kali",
-    "english": "Talk; voice",
-    "tagalog": "makipag-usap; boses",
+    "english": "Talk",
+    "tagalog": "makipag-usap",
     "part_of_speech": "verb"
   },
   {
@@ -1177,15 +1225,15 @@
   },
   {
     "word": "Upo",
-    "english": "Thigh; leg",
-    "tagalog": "hita; binti",
+    "english": "Thigh",
+    "tagalog": "hita",
     "part_of_speech": "noun"
   },
   {
     "word": "Wada",
-    "english": "There is; present; have",
-    "tagalog": "mayroon; kasalukuyan",
-    "part_of_speech": "noun"
+    "english": "There is",
+    "tagalog": "mayroon",
+    "part_of_speech": "adverb"
   },
   {
     "word": "Isdi",
@@ -1207,14 +1255,26 @@
   },
   {
     "word": "Ka-iw",
-    "english": "Tree; tree/wood",
-    "tagalog": "puno; puno / wood",
+    "english": "Tree",
+    "tagalog": "puno",
     "part_of_speech": "noun"
   },
   {
     "word": "Makaliget",
-    "english": "To be angry; irritated",
-    "tagalog": "Ang magalit; inis",
+    "english": "To be angry",
+    "tagalog": "Ang magalit",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "Lumako",
+    "english": "To buy",
+    "tagalog": "Bilhin",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "Matey",
+    "english": "To die",
+    "tagalog": "Mamatay",
     "part_of_speech": "verb"
   },
   {
@@ -1227,6 +1287,12 @@
     "word": "Taynan",
     "english": "To leave behind",
     "tagalog": "Upang mag-iwan sa likod",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "Umey",
+    "english": "To go",
+    "tagalog": "upang pumunta",
     "part_of_speech": "verb"
   },
   {
@@ -1296,6 +1362,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Gawi-gawis",
+    "english": "very good",
+    "tagalog": "napakabuti",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "Asi-asi",
     "english": "Very ugly",
     "tagalog": "Napakapangit",
@@ -1322,14 +1394,14 @@
   {
     "word": "Awni",
     "english": "Wait",
-    "tagalog": "Hinihintay; paghihintay",
+    "tagalog": "Hinihintay",
     "part_of_speech": "noun"
   },
   {
     "word": "Aw-awni",
-    "english": "Wait longer; just a moment",
-    "tagalog": "maghintay na; sandali lang",
-    "part_of_speech": "adverb"
+    "english": "Wait longer",
+    "tagalog": "maghintay na",
+    "part_of_speech": "noun"
   },
   {
     "word": "Basula",
@@ -1344,9 +1416,15 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Daan",
+    "english": "Way",
+    "tagalog": "paraan",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Sino?",
-    "english": "What?; Who",
-    "tagalog": "Ano?; sino",
+    "english": "What?",
+    "tagalog": "Ano?",
     "part_of_speech": "noun"
   },
   {
@@ -1357,8 +1435,8 @@
   },
   {
     "word": "Datako",
-    "english": "We�; us",
-    "tagalog": "kami; atin",
+    "english": "We�",
+    "tagalog": "kami",
     "part_of_speech": "noun"
   },
   {
@@ -1398,6 +1476,12 @@
     "part_of_speech": "adjective"
   },
   {
+    "word": "Sino?",
+    "english": "Who",
+    "tagalog": "sino",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Dagem",
     "english": "Wind",
     "tagalog": "hangin",
@@ -1429,9 +1513,9 @@
   },
   {
     "word": "Unga",
-    "english": "Young; children; baby",
-    "tagalog": "bata; mga bata; sanggol",
-    "part_of_speech": "noun"
+    "english": "Young",
+    "tagalog": "bata",
+    "part_of_speech": "adjective"
   },
   {
     "word": "Ukam",
@@ -1447,14 +1531,20 @@
   },
   {
     "word": "Adi",
-    "english": "don't/not; no",
-    "tagalog": "hindi / hindi; hindi",
+    "english": "don't/not",
+    "tagalog": "hindi / hindi",
     "part_of_speech": "noun"
   },
   {
     "word": "Agasem",
     "english": "awesome",
     "tagalog": "kasindak-sindak",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Agew",
+    "english": "day/sun",
+    "tagalog": "araw / sun",
     "part_of_speech": "noun"
   },
   {
@@ -1494,6 +1584,12 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "Dakdake",
+    "english": "big/large",
+    "tagalog": "malaking malaki",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Dalas",
     "english": "hurry",
     "tagalog": "magmadali",
@@ -1506,9 +1602,21 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Daan",
+    "english": "way",
+    "tagalog": "paraan",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Dapan",
-    "english": "toe; Foot",
-    "tagalog": "daliri ng paa; paa",
+    "english": "toe",
+    "tagalog": "daliri ng paa",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Datako",
+    "english": "us",
+    "tagalog": "atin",
     "part_of_speech": "noun"
   },
   {
@@ -1542,6 +1650,12 @@
     "part_of_speech": "adverb"
   },
   {
+    "word": "Egyat",
+    "english": "fear",
+    "tagalog": "takot",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Esa",
     "english": "one",
     "tagalog": "isa",
@@ -1555,8 +1669,8 @@
   },
   {
     "word": "Galden",
-    "english": "farm; garden",
-    "tagalog": "sakahan; hardin",
+    "english": "farm",
+    "tagalog": "sakahan",
     "part_of_speech": "noun"
   },
   {
@@ -1591,7 +1705,7 @@
   },
   {
     "word": "Igid",
-    "english": "edge; side",
+    "english": "edge",
     "tagalog": "gilid",
     "part_of_speech": "noun"
   },
@@ -1662,6 +1776,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Ipugaw",
+    "english": "people",
+    "tagalog": "mga tao",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Isbo",
     "english": "urine",
     "tagalog": "ihi",
@@ -1693,8 +1813,8 @@
   },
   {
     "word": "Kaanakan",
-    "english": "nephew/niece; niece; nephew",
-    "tagalog": "pamangkin / pamangking babae; pamangking babae; pamangking lalaki",
+    "english": "nephew/niece",
+    "tagalog": "pamangkin / pamangking babae",
     "part_of_speech": "noun"
   },
   {
@@ -1722,6 +1842,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Ka-iw",
+    "english": "tree/wood",
+    "tagalog": "puno / wood",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Kakakkaiwan",
     "english": "habitat of trees",
     "tagalog": "tirahan ng mga puno",
@@ -1735,9 +1861,9 @@
   },
   {
     "word": "Kanayon",
-    "english": "always; frequently",
-    "tagalog": "palagi; madalas",
-    "part_of_speech": "noun"
+    "english": "always",
+    "tagalog": "palagi",
+    "part_of_speech": "adverb"
   },
   {
     "word": "Kalalag",
@@ -1749,6 +1875,12 @@
     "word": "Kalding",
     "english": "goat",
     "tagalog": "kambing",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Kali",
+    "english": "voice",
+    "tagalog": "boses",
     "part_of_speech": "noun"
   },
   {
@@ -1764,10 +1896,22 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Kinwani",
+    "english": "statement",
+    "tagalog": "pahayag",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Kanan",
     "english": "say",
     "tagalog": "say",
     "part_of_speech": "verb"
+  },
+  {
+    "word": "Kanayon",
+    "english": "frequently",
+    "tagalog": "madalas",
+    "part_of_speech": "noun"
   },
   {
     "word": "Kanta",
@@ -1855,8 +1999,8 @@
   },
   {
     "word": "Taw-en",
-    "english": "age; year",
-    "tagalog": "edad; taon",
+    "english": "age",
+    "tagalog": "edad",
     "part_of_speech": "noun"
   },
   {
@@ -1992,6 +2136,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Labi",
+    "english": "night",
+    "tagalog": "gabi",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Labos",
     "english": "undress",
     "tagalog": "pambahay na damit",
@@ -2035,14 +2185,20 @@
   },
   {
     "word": "Lakay",
-    "english": "husban; husband",
-    "tagalog": "husban; asawa",
+    "english": "husban",
+    "tagalog": "husban",
     "part_of_speech": "noun"
   },
   {
     "word": "Lako",
     "english": "buy",
     "tagalog": "bili",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Lalaki",
+    "english": "boy",
+    "tagalog": "batang lalaki",
     "part_of_speech": "noun"
   },
   {
@@ -2143,8 +2299,8 @@
   },
   {
     "word": "Ligat",
-    "english": "problem; difficulty",
-    "tagalog": "problema; kahirapan",
+    "english": "problem",
+    "tagalog": "problema",
     "part_of_speech": "noun"
   },
   {
@@ -2155,9 +2311,9 @@
   },
   {
     "word": "Lima",
-    "english": "five; Hand; Arm",
-    "tagalog": "lima; kamay; braso",
-    "part_of_speech": "noun"
+    "english": "five",
+    "tagalog": "lima",
+    "part_of_speech": "adjective"
   },
   {
     "word": "Limos",
@@ -2191,8 +2347,8 @@
   },
   {
     "word": "Nalitaw",
-    "english": "get lost; loose",
-    "tagalog": "mawala; kalagin",
+    "english": "get lost",
+    "tagalog": "mawala",
     "part_of_speech": "noun"
   },
   {
@@ -2203,8 +2359,14 @@
   },
   {
     "word": "Alapo",
-    "english": "grandmother; grandfather",
-    "tagalog": "lola; lolo",
+    "english": "grandmother",
+    "tagalog": "lola",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Alapo",
+    "english": "grandfather",
+    "tagalog": "lolo",
     "part_of_speech": "noun"
   },
   {
@@ -2254,6 +2416,12 @@
     "english": "Tuesday",
     "tagalog": "Martes",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Maseyep",
+    "english": "sleep",
+    "tagalog": "pagtulog",
+    "part_of_speech": "verb"
   },
   {
     "word": "Mag-as",
@@ -2328,6 +2496,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Masdem",
+    "english": "afternoon",
+    "tagalog": "hapon",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Mayat",
     "english": "nice",
     "tagalog": "maganda",
@@ -2361,6 +2535,12 @@
     "word": "Mokod",
     "english": "knee",
     "tagalog": "tuhod",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Muwa",
+    "english": "plant",
+    "tagalog": "halaman",
     "part_of_speech": "noun"
   },
   {
@@ -2412,6 +2592,12 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "Ngadan",
+    "english": "name",
+    "tagalog": "pangalan",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Ngalawngaw",
     "english": "noise",
     "tagalog": "ingay",
@@ -2460,6 +2646,12 @@
     "part_of_speech": "verb"
   },
   {
+    "word": "Udan",
+    "english": "rain",
+    "tagalog": "ulan",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Men-aga",
     "english": "cry",
     "tagalog": "sigaw",
@@ -2481,6 +2673,12 @@
     "word": "Bisong",
     "english": "kiss",
     "tagalog": "halik",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Esa",
+    "english": "one",
+    "tagalog": "isa",
     "part_of_speech": "noun"
   },
   {
@@ -2616,6 +2814,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Payong",
+    "english": "umbrella",
+    "tagalog": "payong",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Puwek",
     "english": "typhoon",
     "tagalog": "bagyo",
@@ -2647,8 +2851,8 @@
   },
   {
     "word": "Pito",
-    "english": "seven; nine",
-    "tagalog": "pito; siyam",
+    "english": "seven",
+    "tagalog": "pito",
     "part_of_speech": "noun"
   },
   {
@@ -2682,6 +2886,12 @@
     "part_of_speech": "adjective"
   },
   {
+    "word": "Pulos",
+    "english": "never",
+    "tagalog": "hindi kailanman",
+    "part_of_speech": "adverb"
+  },
+  {
     "word": "Puso",
     "english": "heart",
     "tagalog": "puso",
@@ -2691,6 +2901,12 @@
     "word": "Lason",
     "english": "reason",
     "tagalog": "dahilan",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Ligat",
+    "english": "difficulty",
+    "tagalog": "kahirapan",
     "part_of_speech": "noun"
   },
   {
@@ -2755,7 +2971,7 @@
   },
   {
     "word": "Sak-en",
-    "english": "me; I",
+    "english": "me",
     "tagalog": "ako",
     "part_of_speech": "noun"
   },
@@ -2826,6 +3042,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Siki",
+    "english": "foot",
+    "tagalog": "paa",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Siko",
     "english": "arm",
     "tagalog": "braso",
@@ -2833,8 +3055,8 @@
   },
   {
     "word": "Silaw",
-    "english": "light; lamp",
-    "tagalog": "liwanag; lampara",
+    "english": "light",
+    "tagalog": "liwanag",
     "part_of_speech": "adjective"
   },
   {
@@ -2850,6 +3072,12 @@
     "part_of_speech": "adverb"
   },
   {
+    "word": "Naayagan",
+    "english": "this one",
+    "tagalog": "itong isa",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Singasut",
     "english": "one hundred",
     "tagalog": "isang daan",
@@ -2860,6 +3088,12 @@
     "english": "collect",
     "tagalog": "collect",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Lima",
+    "english": "five",
+    "tagalog": "lima",
+    "part_of_speech": "adjective"
   },
   {
     "word": "Limanpu-o",
@@ -2901,6 +3135,12 @@
     "word": "Siyasa",
     "english": "that?s it",
     "tagalog": "ayan yun",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Pito",
+    "english": "nine",
+    "tagalog": "siyam",
     "part_of_speech": "noun"
   },
   {
@@ -2952,6 +3192,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Tumagtag",
+    "english": "run",
+    "tagalog": "tumakbo",
+    "part_of_speech": "verb"
+  },
+  {
     "word": "Tumakdeg",
     "english": "stand",
     "tagalog": "tumayo",
@@ -3000,9 +3246,21 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Tauli",
+    "english": "return",
+    "tagalog": "pagbabalik",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Tawa",
     "english": "window",
     "tagalog": "bintana",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Taw-en",
+    "english": "year",
+    "tagalog": "taon",
     "part_of_speech": "noun"
   },
   {
@@ -3120,10 +3378,22 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Unga",
+    "english": "young",
+    "tagalog": "bata",
+    "part_of_speech": "adjective"
+  },
+  {
     "word": "Udi",
     "english": "last",
     "tagalog": "huli",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Men-aga",
+    "english": "cry",
+    "tagalog": "sigaw",
+    "part_of_speech": "verb"
   },
   {
     "word": "Uka",
@@ -3168,6 +3438,18 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Nauwat",
+    "english": "hunger",
+    "tagalog": "gutom",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Wada",
+    "english": "present",
+    "tagalog": "kasalukuyan",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Ewalas",
     "english": "distribute",
     "tagalog": "ipamahagi",
@@ -3198,9 +3480,21 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Buok",
+    "english": "Hair",
+    "tagalog": "buhok",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Enga",
     "english": "Ear",
     "tagalog": "tainga",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Mata",
+    "english": "Eye",
+    "tagalog": "mata",
     "part_of_speech": "noun"
   },
   {
@@ -3216,6 +3510,24 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "E-eng",
+    "english": "Nose",
+    "tagalog": "ilong",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Tupek",
+    "english": "Mouth",
+    "tagalog": "Bibig",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Tenged",
+    "english": "Neck",
+    "tagalog": "leeg",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Puki",
     "english": "Shoulder",
     "tagalog": "balikat",
@@ -3228,9 +3540,27 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Lima",
+    "english": "Hand",
+    "tagalog": "kamay",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gumot",
+    "english": "Finger",
+    "tagalog": "Daliri",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Busog",
     "english": "Stomach",
     "tagalog": "Tiyan",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Lima",
+    "english": "Arm",
+    "tagalog": "braso",
     "part_of_speech": "noun"
   },
   {
@@ -3240,9 +3570,33 @@
     "part_of_speech": "adjective"
   },
   {
+    "word": "Puweg",
+    "english": "Knee",
+    "tagalog": "tuhod",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Dapan",
+    "english": "Foot",
+    "tagalog": "paa",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gumot",
+    "english": "Toe",
+    "tagalog": "daliri ng paa",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Ideg",
     "english": "back",
     "tagalog": "likod",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Upo",
+    "english": "leg",
+    "tagalog": "binti",
     "part_of_speech": "noun"
   },
   {
@@ -3252,9 +3606,27 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Mata",
+    "english": "eyes",
+    "tagalog": "Mata",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gumot",
+    "english": "thumb",
+    "tagalog": "hinlalaki",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Adpa",
     "english": "palm",
     "tagalog": "palad",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Kudil",
+    "english": "skin",
+    "tagalog": "balat",
     "part_of_speech": "noun"
   },
   {
@@ -3294,6 +3666,18 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Manok",
+    "english": "chicken",
+    "tagalog": "manok",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Kalding",
+    "english": "goat",
+    "tagalog": "kambing",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Bubuyog",
     "english": "bee",
     "tagalog": "pukyutan",
@@ -3301,8 +3685,8 @@
   },
   {
     "word": "Utek",
-    "english": "pig; brain",
-    "tagalog": "baboy; utak",
+    "english": "pig",
+    "tagalog": "baboy",
     "part_of_speech": "noun"
   },
   {
@@ -3325,8 +3709,8 @@
   },
   {
     "word": "Itot",
-    "english": "mouse; rat",
-    "tagalog": "mouse; daga",
+    "english": "mouse",
+    "tagalog": "mouse",
     "part_of_speech": "noun"
   },
   {
@@ -3366,15 +3750,33 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Kuton",
+    "english": "ant",
+    "tagalog": "langgam",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Dalit",
     "english": "eel",
     "tagalog": "igat",
     "part_of_speech": "noun"
   },
   {
+    "word": "Itot",
+    "english": "rat",
+    "tagalog": "daga",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Oweg",
-    "english": "snake; cobra",
-    "tagalog": "ahas; ulupong",
+    "english": "snake",
+    "tagalog": "ahas",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Oweg",
+    "english": "cobra",
+    "tagalog": "ulupong",
     "part_of_speech": "noun"
   },
   {
@@ -3499,9 +3901,15 @@
   },
   {
     "word": "Banyo",
-    "english": "bathroom; toilet",
+    "english": "bathroom",
     "tagalog": "banyo",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Lamisaan",
+    "english": "table",
+    "tagalog": "mesa",
+    "part_of_speech": "adjective"
   },
   {
     "word": "T.v.",
@@ -3528,9 +3936,27 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Galden",
+    "english": "garden",
+    "tagalog": "hardin",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Kutsi",
     "english": "car",
     "tagalog": "kotse",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Daan",
+    "english": "hall",
+    "tagalog": "bulwagan",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "banyo",
+    "english": "toilet",
+    "tagalog": "banyo",
     "part_of_speech": "noun"
   },
   {
@@ -3540,9 +3966,21 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Tawa",
+    "english": "window",
+    "tagalog": "bintana",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Salming",
     "english": "mirror",
     "tagalog": "salamin",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Bato",
+    "english": "rock",
+    "tagalog": "bato",
     "part_of_speech": "noun"
   },
   {
@@ -3558,9 +3996,27 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Danum",
+    "english": "water",
+    "tagalog": "tubig",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Flash light",
     "english": "flash light",
     "tagalog": "flash light",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Sagad",
+    "english": "broom",
+    "tagalog": "walis",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Silaw",
+    "english": "lamp",
+    "tagalog": "lampara",
     "part_of_speech": "noun"
   },
   {
@@ -3585,6 +4041,12 @@
     "word": "Tukduan",
     "english": "chair",
     "tagalog": "upuan",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gipan",
+    "english": "knife",
+    "tagalog": "kutsilyo",
     "part_of_speech": "noun"
   },
   {
@@ -3619,14 +4081,44 @@
   },
   {
     "word": "Babae",
-    "english": "girl; woman",
-    "tagalog": "batang babae; babae",
+    "english": "girl",
+    "tagalog": "batang babae",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Lalaki",
+    "english": "man",
+    "tagalog": "lalaki",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Babae",
+    "english": "woman",
+    "tagalog": "babae",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Unga",
+    "english": "children",
+    "tagalog": "mga bata",
     "part_of_speech": "noun"
   },
   {
     "word": "Baket",
     "english": "wife",
     "tagalog": "asawa",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Ama",
+    "english": "Father",
+    "tagalog": "ama",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Ina",
+    "english": "Mother",
+    "tagalog": "ina",
     "part_of_speech": "noun"
   },
   {
@@ -3642,6 +4134,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Unga",
+    "english": "baby",
+    "tagalog": "sanggol",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Boy",
     "english": "son",
     "tagalog": "anak",
@@ -3651,6 +4149,12 @@
     "word": "An-ak",
     "english": "daughter",
     "tagalog": "anak na babae",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Kasinsin",
+    "english": "cousin",
+    "tagalog": "pinsan",
     "part_of_speech": "noun"
   },
   {
@@ -3672,9 +4176,27 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Kaanakan",
+    "english": "niece",
+    "tagalog": "pamangking babae",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Bayaw",
     "english": "brother-in-law",
     "tagalog": "bayaw",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Lakay",
+    "english": "husband",
+    "tagalog": "asawa",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Kaanakan",
+    "english": "nephew",
+    "tagalog": "pamangking lalaki",
     "part_of_speech": "noun"
   },
   {
@@ -3685,8 +4207,14 @@
   },
   {
     "word": "Mensasadut",
-    "english": "bored; sad",
-    "tagalog": "bored; malungkot",
+    "english": "bored",
+    "tagalog": "bored",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Nalagsak",
+    "english": "happy",
+    "tagalog": "masaya",
     "part_of_speech": "adjective"
   },
   {
@@ -3706,6 +4234,18 @@
     "english": "excited",
     "tagalog": "natutuwa",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "makaliget",
+    "english": "irritated",
+    "tagalog": "inis",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Mensasadut",
+    "english": "sad",
+    "tagalog": "malungkot",
+    "part_of_speech": "adjective"
   },
   {
     "word": "Umigyat",
@@ -3732,9 +4272,21 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Nabbay",
+    "english": "tired",
+    "tagalog": "pagod",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "Utek",
+    "english": "brain",
+    "tagalog": "utak",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Tulang",
-    "english": "skull; bone",
-    "tagalog": "bungo; buto",
+    "english": "skull",
+    "tagalog": "bungo",
     "part_of_speech": "noun"
   },
   {
@@ -3765,6 +4317,12 @@
     "word": "Skeleton",
     "english": "keleton",
     "tagalog": "keleton",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Busog",
+    "english": "stomach",
+    "tagalog": "tiyan",
     "part_of_speech": "noun"
   },
   {
@@ -3840,6 +4398,12 @@
     "part_of_speech": "adjective"
   },
   {
+    "word": "Laya",
+    "english": "ginger",
+    "tagalog": "luya",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Sibuyas",
     "english": "onion",
     "tagalog": "sibuyas",
@@ -3849,6 +4413,12 @@
     "word": "Sili",
     "english": "pepper",
     "tagalog": "paminta",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Kamatis",
+    "english": "tomato",
+    "tagalog": "kamatis",
     "part_of_speech": "noun"
   },
   {
@@ -3900,6 +4470,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Langka",
+    "english": "jackfruit",
+    "tagalog": "langka",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Pakwan",
     "english": "watermelon",
     "tagalog": "pakwan",
@@ -3939,6 +4515,18 @@
     "word": "Lusong",
     "english": "dates",
     "tagalog": "petsa",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Tulang",
+    "english": "bone",
+    "tagalog": "buto",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Igid",
+    "english": "side",
+    "tagalog": "gilid",
     "part_of_speech": "noun"
   },
   {
@@ -3984,6 +4572,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Tenga",
+    "english": "center",
+    "tagalog": "gitna",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "West",
     "english": "west",
     "tagalog": "kanluran",
@@ -4005,6 +4599,18 @@
     "word": "North",
     "english": "north",
     "tagalog": "hilaga",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Daan",
+    "english": "way",
+    "tagalog": "paraan",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Daan",
+    "english": "street",
+    "tagalog": "kalye",
     "part_of_speech": "noun"
   },
   {
@@ -4044,6 +4650,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Ituloy",
+    "english": "continue",
+    "tagalog": "magpatuloy",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Menpuliwes",
     "english": "turn",
     "tagalog": "lumiko",
@@ -4071,6 +4683,12 @@
     "word": "Mailiwak ken sik-a",
     "english": "I miss you",
     "tagalog": "Miss na kita",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Gawis ay agew",
+    "english": "have a nice day",
+    "tagalog": "magandang araw",
     "part_of_speech": "noun"
   },
   {
@@ -4218,6 +4836,12 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Apoy",
+    "english": "fire",
+    "tagalog": "apoy",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Nakigtot",
     "english": "panic",
     "tagalog": "biglang pagkatakot",
@@ -4257,6 +4881,12 @@
     "word": "Cashier",
     "english": "cashier",
     "tagalog": "kahero",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Nalitaw",
+    "english": "loose",
+    "tagalog": "kalagin",
     "part_of_speech": "noun"
   },
   {
@@ -4399,8 +5029,8 @@
   },
   {
     "word": "Ed wani",
-    "english": "this day; during",
-    "tagalog": "araw na ito; sa panahon ng",
+    "english": "this day",
+    "tagalog": "araw na ito",
     "part_of_speech": "noun"
   },
   {
@@ -4416,15 +5046,45 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Ed wani",
+    "english": "during",
+    "tagalog": "sa panahon ng",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Owen",
     "english": "yes",
     "tagalog": "oo",
     "part_of_speech": "noun"
   },
   {
+    "word": "Adi",
+    "english": "no",
+    "tagalog": "hindi",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Wada",
+    "english": "have",
+    "tagalog": "mayroon",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Maid",
+    "english": "none",
+    "tagalog": "wala",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Naamin",
     "english": "no more",
     "tagalog": "wala na",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Sak-en",
+    "english": "I",
+    "tagalog": "ako",
     "part_of_speech": "noun"
   },
   {
@@ -4452,16 +5112,40 @@
     "part_of_speech": "adjective"
   },
   {
+    "word": "Ad-o",
+    "english": "enough",
+    "tagalog": "tama na",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Men atong",
     "english": "hot",
     "tagalog": "mainit",
     "part_of_speech": "adjective"
   },
   {
+    "word": "Awni",
+    "english": "wait",
+    "tagalog": "paghihintay",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "Lumako",
+    "english": "buy",
+    "tagalog": "bili",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Kadya ta lumaas",
     "english": "excuse me",
     "tagalog": "patawarin ninyo ako",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Umali",
+    "english": "come",
+    "tagalog": "dumating",
+    "part_of_speech": "verb"
   },
   {
     "word": "Obla",
@@ -4494,9 +5178,21 @@
     "part_of_speech": "noun"
   },
   {
+    "word": "Nauwat",
+    "english": "hungry",
+    "tagalog": "gutom",
+    "part_of_speech": "noun"
+  },
+  {
     "word": "Dakig",
     "english": "lock",
     "tagalog": "lock",
     "part_of_speech": "noun"
+  },
+  {
+    "word": "Aw-awni",
+    "english": "just a moment",
+    "tagalog": "sandali lang",
+    "part_of_speech": "adverb"
   }
 ]
