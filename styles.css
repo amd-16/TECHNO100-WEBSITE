@@ -372,7 +372,6 @@ mark { background: rgba(192,57,43,0.15); color: var(--ink); border-radius: 2px; 
   color: var(--ink);
   line-height: 1.1;
 }
-.words-title em { font-style: italic; color: var(--gold); font-weight: 400; }
 .words-controls {
   display: flex;
   align-items: flex-start;
