@@ -536,7 +536,7 @@ th.sort-asc  .sort-icon::after, th.sort-desc .sort-icon::after { font-size: 0.75
 @media (max-width: 600px) {
   .nav-links {
     display: none;
-    flex-direction: row;        /* keep horizontal, not vertical */
+    flex-direction: column;
     position: absolute;
     top: var(--nav-h);
     left: 0;
@@ -544,24 +544,32 @@ th.sort-asc  .sort-icon::after, th.sort-desc .sort-icon::after { font-size: 0.75
     background: var(--paper);
     border-bottom: 1px solid var(--border);
     box-shadow: 0 6px 20px var(--shadow);
-    height: var(--nav-h);       /* same height as navbar */
-    align-items: stretch;
-    padding: 0;                 /* remove padding so links fill edge to edge */
     gap: 0;
+    padding: 0;
   }
 
   .nav-links.open { display: flex; }
 
   .nav-links li {
-    flex: 1;
     display: flex;
-    align-items: stretch;
+    width: 100%;
   }
 
   .nav-link {
-    width: 100%;                /* fill the li instead of fixed 120px */
-    padding: 0;
+    width: 100%;               /* override the desktop 120px fixed width */
+    min-width: 0;              /* prevent any min-width from desktop leaking in */
+    height: var(--nav-h);
+    padding: 0 28px;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--border);
+    box-sizing: border-box;
   }
+
+  .nav-link:last-child { border-bottom: none; }
+
+  .nav-link:not(.active) { background: var(--paper); color: var(--muted); }
+  .nav-link:hover        { background: var(--cream);  color: var(--ink); }
+  .nav-link.active       { background: var(--ink);    color: var(--paper); }
 
   .nav-hamburger { display: flex; }
   .search-panel { padding: 20px 16px 16px; }
