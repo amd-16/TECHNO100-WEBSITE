@@ -6,31 +6,37 @@
 <title>Cordilleran Dictionary</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <div class="bg-pattern"></div>
 
-<nav class="navbar">
-  <div class="nav-inner">
-    <a class="nav-brand" href="#" onclick="showPage('home');return false;">
-      <img src="https://www.uc-bcf.edu.ph/assets/images/uc_logo_green_ext_h150.png" class="nav-brand-icon" alt="uc logo">
+<nav class="navbar navbar-expand-lg navbar-light cd-navbar">
+  <div class="container-fluid cd-nav-inner">
+    <a class="navbar-brand cd-brand" href="#" onclick="showPage('home');return false;">
+      <img src="https://www.uc-bcf.edu.ph/assets/images/uc_logo_green_ext_h150.png" class="cd-brand-icon" alt="uc logo">
     </a>
-    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
+    <button class="navbar-toggler cd-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bsNavLinks" aria-controls="bsNavLinks" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#" class="nav-link active" data-page="home" onclick="showPage('home');return false;">Home</a></li>
-      <li><a href="#" class="nav-link" data-page="words" onclick="showPage('words');return false;">Word List</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="bsNavLinks">
+      <ul class="navbar-nav ms-auto" id="navLinks">
+        <li class="nav-item"><a href="#" class="nav-link active" data-page="home" onclick="showPage('home');return false;">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" data-page="words" onclick="showPage('words');return false;">Word List</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" data-page="library" onclick="showPage('library');return false;">&#128218; Library</a></li>
+        <li class="nav-item"><a href="#" class="nav-link nav-link--premium" data-page="premium" onclick="showPage('premium');return false;">&#9733; Premium</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
+<!-- Home Page -->
 <div id="page-home" class="page active">
   <div class="container">
     <header class="site-header">
-      <h1>Kankanaey & Ibaloi<br><em>Dictionary</em></h1>
+      <h1>Kankanaey &amp; Ibaloi<br><em>Dictionary</em></h1>
       <p class="subtitle">Preserving language and culture</p>
     </header>
 
@@ -44,7 +50,7 @@
         <button class="mode-tab" data-mode="english">Search by English</button>
       </div>
       <div class="search-row">
-        <input type="text" id="wordInput" placeholder="Type to search…" autocomplete="off">
+        <input type="text" id="wordInput" placeholder="Type to search&hellip;" autocomplete="off">
         <button id="searchBtn">Search</button>
       </div>
       <div id="suggestions" class="suggestions hidden"></div>
@@ -54,44 +60,150 @@
   </div>
 </div>
 
+<!-- Word List Page -->
 <div id="page-words" class="page">
   <div class="container container--wide">
-
     <header class="words-header">
       <h2 class="words-title">Word <span style="color: #c0392b;">List</span></h2>
       <p class="subtitle">Browse all entries by language</p>
     </header>
-
     <div class="words-controls">
       <div class="lang-tabs words-lang-tabs">
         <button class="lang-tab active" data-wlang="kankanaey">Kankanaey</button>
         <button class="lang-tab" data-wlang="ibaloi">Ibaloi</button>
       </div>
       <div class="words-filters">
-        <input type="text" id="wordsFilter" placeholder="Search words…" autocomplete="off">
+        <input type="text" id="wordsFilter" placeholder="Search words&hellip;" autocomplete="off">
       </div>
     </div>
-
     <div class="alpha-scroll" id="alphaScroll"></div>
-
     <div class="words-stats" id="wordsStats"></div>
-
     <div class="words-table-wrap">
       <table class="words-table" id="wordsTable">
         <thead>
           <tr>
-            <th class="col-word sortable" data-col="word">Word <span class="sort-icon">↕</span></th>
-            <th class="col-english sortable" data-col="english">English <span class="sort-icon">↕</span></th>
+            <th class="col-word sortable" data-col="word">Word <span class="sort-icon">&#8597;</span></th>
+            <th class="col-english sortable" data-col="english">English <span class="sort-icon">&#8597;</span></th>
             <th class="col-tagalog">Tagalog</th>
-            <th class="col-pos sortable" data-col="part_of_speech">Part of Speech <span class="sort-icon">↕</span></th>
+            <th class="col-pos sortable" data-col="part_of_speech">Part of Speech <span class="sort-icon">&#8597;</span></th>
           </tr>
         </thead>
         <tbody id="wordsBody"></tbody>
       </table>
     </div>
-
     <div class="pagination" id="pagination"></div>
+  </div>
+</div>
 
+
+<!-- Library Page -->
+<div id="page-library" class="page">
+  <div class="container">
+    <header class="site-header">
+      <h1>My <em>Library</em></h1>
+      <p class="subtitle">Your word history &amp; saved words</p>
+    </header>
+
+    <!-- Premium gate banner (shown when not unlocked) -->
+    <div class="library-gate hidden" id="libraryGate">
+      <div class="gate-icon" style="font-size:2rem;margin-bottom:8px;">&#9733;</div>
+      <p>Word History and Saved Words are <strong>premium features</strong>.</p>
+      <button class="btn-gate-unlock" style="margin-top:12px;" onclick="showPage('premium')">Unlock for &#8369;99</button>
+    </div>
+
+    <!-- Library content (shown when unlocked) -->
+    <div class="library-content hidden" id="libraryContent">
+
+      <!-- Tabs -->
+      <div class="lib-tabs" id="libTabs">
+        <button class="lib-tab active" data-libtab="history">&#128338; History</button>
+        <button class="lib-tab" data-libtab="saved">&#9733; Saved Words</button>
+      </div>
+
+      <!-- History panel -->
+      <div class="lib-panel active" id="libPanel-history">
+        <div class="lib-toolbar">
+          <span class="lib-count" id="historyCount"></span>
+          <button class="lib-clear-btn" id="clearHistoryBtn">Clear all</button>
+        </div>
+        <div class="lib-list" id="historyList"></div>
+      </div>
+
+      <!-- Saved panel -->
+      <div class="lib-panel" id="libPanel-saved">
+        <div class="lib-toolbar">
+          <span class="lib-count" id="savedCount"></span>
+          <button class="lib-clear-btn" id="clearSavedBtn">Clear all</button>
+        </div>
+        <div class="lib-list" id="savedList"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Premium Page -->
+<div id="page-premium" class="page">
+  <div class="container">
+    <header class="site-header">
+      <h1>Unlock <em>Premium</em></h1>
+      <p class="subtitle">One-time unlock &middot; No subscription</p>
+    </header>
+
+    <div class="offline-ready-banner hidden" id="offlineReadyBanner">
+      <span>&#128266;</span> Offline dictionary cached &mdash; you can now use the dictionary without internet!
+    </div>
+
+    <div class="premium-status hidden" id="premiumStatus">
+      <span class="premium-status-icon">&#10003;</span>
+      <span>Premium unlocked &mdash; thank you for your support!</span>
+    </div>
+
+    <div class="pricing-card" id="pricingCard">
+      <div class="pricing-header">
+        <div class="pricing-price">&#8369;99</div>
+        <div class="pricing-label">One-time unlock</div>
+      </div>
+      <ul class="pricing-features">
+        <li class="pricing-feature free">
+          <span class="pf-icon pf-free">&#10003;</span>
+          <span><strong>Basic dictionary search</strong> &mdash; always free</span>
+        </li>
+        <li class="pricing-feature free">
+          <span class="pf-icon pf-free">&#10003;</span>
+          <span><strong>Word list browsing</strong> &mdash; always free</span>
+        </li>
+        <li class="pricing-feature premium">
+          <span class="pf-icon pf-star">&#9733;</span>
+          <span><strong>Audio pronunciation</strong> &mdash; hear every word spoken</span>
+        </li>
+        <li class="pricing-feature premium">
+          <span class="pf-icon pf-star">&#9733;</span>
+          <span><strong>Word history</strong> &mdash; track recently looked-up words</span>
+        </li>
+        <li class="pricing-feature premium">
+          <span class="pf-icon pf-star">&#9733;</span>
+          <span><strong>Saved words</strong> &mdash; build your personal vocabulary list</span>
+        </li>
+        <li class="pricing-feature premium">
+          <span class="pf-icon pf-star">&#9733;</span>
+          <span><strong>Offline dictionary</strong> &mdash; use without internet</span>
+        </li>
+      </ul>
+      <a href="https://forms.google.com/REPLACE_WITH_YOUR_FORM_ID" target="_blank" rel="noopener" class="btn-pay">
+        Pay &#8369;99 &rarr; Get Code
+      </a>
+      <p class="pricing-note">After payment you will receive a code. Enter it below to unlock all premium features.</p>
+    </div>
+
+    <div class="redeem-box" id="redeemBox">
+      <p class="redeem-label">Already have a code?</p>
+      <div class="redeem-row">
+        <input type="text" id="redeemInput" placeholder="Enter your unlock code" autocomplete="off" spellcheck="false">
+        <button id="redeemBtn">Unlock</button>
+      </div>
+      <p class="redeem-error hidden" id="redeemError">Invalid code. Please check and try again.</p>
+    </div>
   </div>
 </div>
 
@@ -103,6 +215,26 @@
   </div>
 </div>
 
+<!-- Premium gate modal -->
+<div id="premiumModal" class="modal-overlay">
+  <div class="modal-card modal-card--gate">
+    <button class="modal-close" id="premiumModalClose">x</button>
+    <div class="gate-icon">&#9733;</div>
+    <h3 class="gate-title">Premium Feature</h3>
+    <p class="gate-body" id="gateBody">This feature is available to premium users.</p>
+    <div class="gate-actions">
+      <button class="btn-gate-unlock" onclick="showPage('premium');closePremiumModal()">Unlock for &#8369;99</button>
+      <button class="btn-gate-cancel" onclick="closePremiumModal()">Maybe later</button>
+    </div>
+  </div>
+</div>
+
+<!-- Offline toast -->
+<div id="offlineToast" class="offline-toast hidden">
+  <span>&#128266;</span> You are offline &mdash; using cached dictionary
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cordilleran Dictionary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-pattern"></div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#" onclick="showPage('home');return false;">
+      <img src="https://www.uc-bcf.edu.ph/assets/images/uc_logo_green_ext_h150.png" class="nav-brand-icon" alt="uc logo">
+    </a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#" class="nav-link active" data-page="home" onclick="showPage('home');return false;">Home</a></li>
+      <li><a href="#" class="nav-link" data-page="words" onclick="showPage('words');return false;">Word List</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="page-home" class="page active">
+  <div class="container">
+    <header class="site-header">
+      <h1>Kankanaey & Ibaloi<br><em>Dictionary</em></h1>
+      <p class="subtitle">Preserving language and culture</p>
+    </header>
+
+    <div class="search-panel">
+      <div class="lang-tabs">
+        <button class="lang-tab active" data-lang="kankanaey">Kankanaey</button>
+        <button class="lang-tab" data-lang="ibaloi">Ibaloi</button>
+      </div>
+      <div class="search-mode-tabs">
+        <button class="mode-tab active" data-mode="native">Search by Native Word</button>
+        <button class="mode-tab" data-mode="english">Search by English</button>
+      </div>
+      <div class="search-row">
+        <input type="text" id="wordInput" placeholder="Type to search…" autocomplete="off">
+        <button id="searchBtn">Search</button>
+      </div>
+      <div id="suggestions" class="suggestions hidden"></div>
+    </div>
+
+    <div id="result" class="result-area"></div>
+  </div>
+</div>
+
+<div id="page-words" class="page">
+  <div class="container container--wide">
+
+    <header class="words-header">
+      <h2 class="words-title">Word <span style="color: #c0392b;">List</span></h2>
+      <p class="subtitle">Browse all entries by language</p>
+    </header>
+
+    <div class="words-controls">
+      <div class="lang-tabs words-lang-tabs">
+        <button class="lang-tab active" data-wlang="kankanaey">Kankanaey</button>
+        <button class="lang-tab" data-wlang="ibaloi">Ibaloi</button>
+      </div>
+      <div class="words-filters">
+        <input type="text" id="wordsFilter" placeholder="Search words…" autocomplete="off">
+      </div>
+    </div>
+
+    <div class="alpha-scroll" id="alphaScroll"></div>
+
+    <div class="words-stats" id="wordsStats"></div>
+
+    <div class="words-table-wrap">
+      <table class="words-table" id="wordsTable">
+        <thead>
+          <tr>
+            <th class="col-word sortable" data-col="word">Word <span class="sort-icon">↕</span></th>
+            <th class="col-english sortable" data-col="english">English <span class="sort-icon">↕</span></th>
+            <th class="col-tagalog">Tagalog</th>
+            <th class="col-pos sortable" data-col="part_of_speech">Part of Speech <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="wordsBody"></tbody>
+      </table>
+    </div>
+
+    <div class="pagination" id="pagination"></div>
+
+  </div>
+</div>
+
+<!-- Word detail modal -->
+<div id="wordModal" class="modal-overlay">
+  <div class="modal-card">
+    <button class="modal-close" id="modalClose">x</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
