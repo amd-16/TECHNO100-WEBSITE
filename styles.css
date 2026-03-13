@@ -94,6 +94,16 @@ body {
   background: rgba(255,255,255,0.98);
 }
 @media (max-width: 991px) {
+  .cd-navbar .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    z-index: 99;
+  }
   .cd-navbar .navbar-nav {
     padding: 10px 0 14px;
     gap: 4px;
