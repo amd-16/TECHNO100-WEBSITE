@@ -21,8 +21,6 @@ function tryUnlock(code) {
   if (VALID_CODES.map(c => c.toUpperCase()).includes(trimmed)) {
     localStorage.setItem('premium_unlocked', '1')
     localStorage.setItem('premium_code_hash', hashCode(trimmed))
-    // Trigger offline cache fill after short delay (SW needs to be active)
-    setTimeout(premiumCacheFill, 1500)
     return true
   }
   return false
@@ -760,46 +758,10 @@ document.getElementById('clearSavedBtn').addEventListener('click', () => {
 })
 
 
-/* ══════════════════════════════════════════════════
-   OFFLINE / SERVICE WORKER
-   ══════════════════════════════════════════════════ */
-function registerServiceWorker() {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').then(reg => {
-      console.log('SW registered:', reg.scope)
-    }).catch(err => console.warn('SW registration failed:', err))
-  }
-}
 
-// Trigger cache fill when premium is first unlocked
-function premiumCacheFill() {
-  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
-    navigator.serviceWorker.controller.postMessage({ type: 'CACHE_PREMIUM' })
-  }
-}
-
-// Online/offline toast
-window.addEventListener('offline', () => {
-  document.getElementById('offlineToast').classList.remove('hidden')
-})
-window.addEventListener('online', () => {
-  document.getElementById('offlineToast').classList.add('hidden')
-})
-
-// Listen for SW message that offline cache is ready
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.addEventListener('message', event => {
-    if (event.data && event.data.type === 'OFFLINE_READY') {
-      // Show a banner on the premium page if visible, otherwise show toast
-      const banner = document.getElementById('offlineReadyBanner')
-      if (banner) { banner.classList.remove('hidden'); setTimeout(() => banner.classList.add('hidden'), 6000) }
-    }
-  })
-}
 
 
 /* ══════════════════════════════════════════════════
    INIT
    ══════════════════════════════════════════════════ */
 updatePremiumUI()
-registerServiceWorker()
