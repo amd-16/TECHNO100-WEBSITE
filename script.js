@@ -215,8 +215,8 @@ let activeAlpha   = null
 let sortListenersAttached = false
 
 Promise.all([
-  fetch('kankanaey_dictionary1.json').then(r => r.json()).catch(() => []),
-  fetch('ibaloi_dictionary1.json').then(r => r.json()).catch(() => [])
+  fetch('kankanaey_dictionary.json').then(r => r.json()).catch(() => []),
+  fetch('ibaloi_dictionary.json').then(r => r.json()).catch(() => [])
 ]).then(([kan, iba]) => {
   kankanaeyData = kan
   ibaloidata    = iba
